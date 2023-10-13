@@ -1,0 +1,93 @@
+[
+    {
+        "id":1,
+        "key":"25-AD-2005C",
+        "name":"ADMINISTRACION",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":2,
+        "key":"23-IF-1985C",
+        "name":"TECNOLOGIAS DE LA INFORMACION",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":3,
+        "key":"12-DI-1985C",
+        "name":"CONSTRUCCIÓN",
+        "status":"1",
+        "type":"Federal"
+    },
+    {
+        "id":4,
+        "key":"13-DM-1988C",
+        "name":"VESTIDO Y TEXTIL",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":5,
+        "key":"14-AN-2012C",
+        "name":"ARTESANAL",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":6,
+        "key":"16-PP-2012C",
+        "name":"PROCESOS DE PRODUCCION INDUSTRIAL",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":7,
+        "key":"22-IN-1985C",
+        "name":"COMUNICACIÓN",
+        "status":"1",
+        "type":"Federal"
+    },
+    {
+        "id":8,
+        "key":"26-AT-2007C",
+        "name":"EDUCACIÓN",
+        "status":"1",
+        "type":"Federal"
+    },
+    {
+        "id":9,
+        "key":"27-CC-2014C",
+        "name":"SALUD",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":10,
+        "key":"28-AS-2009C",
+        "name":"ASISTENCIA SOCIAL",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":11,
+        "key":"29-EB-1985C",
+        "name":"IMAGEN Y BIENESTAR PERSONAL",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":12,
+        "key":"30-AB-2011C",
+        "name":"TURISMO",
+        "status":"1",
+        "type":"Estatal"
+    },
+    {
+        "id":13,
+        "key":"EC0217.01",
+        "name":"IMPARTICIÓN DE CURSOS DE FORMACIÓN DEL CAPITAL HUMANO DE MANERA PRESENCIAL GRUPAL",
+        "status":"1",
+        "type":"Federal"
+    }
+]

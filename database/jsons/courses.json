@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "key":"13-CI-IC15-EXT-024",
+        "name":"CORTE Y CONFECCIÓN DE PRENDAS PARA DAMA",
+        "description":"Al finalizar el curso, El capacitando elaborará prendas básicas para dama desde el patrón hasta la confección. Utilizando herramientas y técnicas adecuadas para ello.",
+        "type_course":"Regular",
+        "duration_course":"40",
+        "modality_course":"Presencial",
+        "constancy_type":"Regular",
+        "themes":"CONOCIENDO LOS MATERIALES.APRENDIENDO A TOMAR MEDIDAS.PATRÓN BÁSICO DE BLUSA.PATRÓN BÁSICO DE MANGA.PATRÓN BÁSICO DE FALDA.",
+        "training_field_id":"1"
+    },
+    {
+        "id":"2",
+        "key":"13-DM-IC16-EXT-072",
+        "name":"ELABORACIÓN DE PATRONES BÁSICOS",
+        "description":"v¡Al término de este curso el capacitando elaborará patrones para la confección de falda, blusa y pantalón.",
+        "type_course":"Regular",
+        "duration_course":"40",
+        "modality_course":"Presencial",
+        "constancy_type":"Regular",
+        "themes":"MATERIAL PARA TRAZO DE PATRONES Y CONFECCIÓN DE PRENDAS.EQUIPAMIENTO.TOMA DE MEDIDAS PERSONALES.PATRONES BÁSICOS.CONFECCIÓN DE PRENDAS BÁSICAS.",
+        "training_field_id":"1"
+    }
+]

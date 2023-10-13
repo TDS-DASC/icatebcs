@@ -1,0 +1,4740 @@
+[
+    {
+        "id": 1,
+        "key": "CM-00001",
+        "name": "DIF PUEBLO NUEVO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":4,
+            "colonia":"Pueblo Nuevo",
+            "calle":"CALLE NIÑOS HÉROES Y VIUDA DE TAPIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 2,
+        "key": "CM-00002",
+        "name": "IGLESIA DEL SAGRADO CORAZÓN DE JESÚS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":5,
+            "colonia":"LIBERTAD",
+            "calle":"EMILIANO ZAPATA Y BOULEVARD MORELOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 3,
+        "key": "CM-00003",
+        "name": "LOCAL COMERCIAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":6,
+            "colonia":"Renero",
+            "calle":"CORREGIDORA E/IGNACIO RAMIREZ Y BENITO JUAREZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 4,
+        "key": "CM-00004",
+        "name": "DOM. PARTICULAR CONSTITUCION",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":7,
+            "colonia":"4 de Marzo",
+            "calle":"AQUILES SERDAN Y JUAN DOMINGUEZ COTA",
+            "codigo_postal":"",
+            "numero": 121,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 5,
+        "key": "LT-00001",
+        "name": "SECUNDARIA BENITO JUAREZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":8,
+            "colonia":"Centro",
+            "calle":"SALVATIERRA E INDEPENDENCIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 6,
+        "key": "LT-00002",
+        "name": "SECUNDARIA MODESTO SÁNCHEZ MAYÓN",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":9,
+            "colonia":"El Jaral",
+            "calle":"MODESTO SÁNCHEZ MAYÓN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 7,
+        "key": "LT-00003",
+        "name": "AULA DE CÓMPUTO DEL IEEA LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":10,
+            "colonia":"El Jaral",
+            "calle":"CARRETERA TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 8,
+        "key": "LT-00006",
+        "name": "DOM. PART. CALLE LEY FEDERAL LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":11,
+            "colonia":"Centro",
+            "calle":"LEY FEDERAL Y AYUNTAMIENTO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 9,
+        "key": "LT-00004",
+        "name": "AULA COBACH 09",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":12,
+            "colonia":"El Jaral",
+            "calle":"CALLE PREPARATORIA E/FCO. I. MADERO Y MISIONEROS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 10,
+        "key": "CB-00001",
+        "name": "DOM PART ALTA TENSIÓN LOS CABOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":13,
+            "colonia":"Santa Rosa",
+            "calle":"AVE. ALTA TENSIÓN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 11,
+        "key": "CB-00002",
+        "name": "DOM. PART. ERNESTO CHAVEZ Y JOSE A. CASTRO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":14,
+            "colonia":"El Zacatal",
+            "calle":"ERNESTO CHAVEZ Y JOSE A. CASTRO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 12,
+        "key": "CB-00004",
+        "name": "DOM PART PROFR BERNARDO LOS CABOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":15,
+            "colonia":"Brisas del Pacifico",
+            "calle":"PROF. BERNARDO COBOS L5",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 13,
+        "key": "CB-00003",
+        "name": "CASA DE LOS ABUELOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":16,
+            "colonia":"Gardenias",
+            "calle":"AV. LOS CABOS Y CALLE ERIZO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 14,
+        "key": "CB-00005",
+        "name": "HOTEL PUEBLO BONITO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":17,
+            "colonia":"Modulo Turístico",
+            "calle":"CORREDOR TURISTICO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 15,
+        "key": "LP-00001",
+        "name": "SECRETARÍA DE EDUCACIÓN PÚBLICA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":18,
+            "colonia":"Las Arboledas",
+            "calle":"LUIS DONALDO COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 16,
+        "key": "LP-00002",
+        "name": "IEBCATCS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":19,
+            "colonia":"Zona Central",
+            "calle":"MADERO",
+            "codigo_postal":"",
+            "numero": 312,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 17,
+        "key": "LP-00003",
+        "name": "ESCUFI",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":20,
+            "colonia":"Adolfo Ruiz Cortines",
+            "calle":"CALLE CIPRES Y ADOLFO RUIZ CORTINEZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+
+    },
+    {
+        "id": 18,
+        "key": "LP-00004",
+        "name": "SALA DE JUNTAS DEL SEDIF",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":21,
+            "colonia":"El Conchalito",
+            "calle":"CARRETERA TRANSPENINSULAR A NORTE KM 4.5",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 19,
+        "key": "LP-00005",
+        "name": "CENTRO DE INTEGRACIÓN JUVENIL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":22,
+            "colonia":"Prensa Radio y TV",
+            "calle":"CHIAPAS ESQ. OAXACA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 20,
+        "key": "LP-00006",
+        "name": "DIF MUNICIPAL LIBERTAD LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":23,
+            "colonia":"Indeco",
+            "calle":"GAMA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 21,
+        "key": "LP-00007",
+        "name": "DIF MUNICIPAL CHAMETLA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":24,
+            "colonia":"Chametla",
+            "calle":"CONOCIDO EJIDO CHAMETLA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 22,
+        "key": "LP-00008",
+        "name": "DOM. PARTICULAR CAMINO REAL LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":25,
+            "colonia":"El Camino Real",
+            "calle":"ARRIERO Y PERLA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 23,
+        "key": "LP-00009",
+        "name": "DIF MUNICIPAL MÁRQUEZ DE LEÓN LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":26,
+            "colonia":"Marquez de Leon",
+            "calle":"CALLE 1 E ISLA SANTA CRUZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 24,
+        "key": "LP-00010",
+        "name": "SECRETARÍA DE SALUD",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":27,
+            "colonia":"Zona Central",
+            "calle":"REVOLUCIÓN",
+            "codigo_postal":"",
+            "numero": 822,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 25,
+        "key": "LT-00007",
+        "name": "UABCS CAMPUS LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":28,
+            "colonia":"Centro",
+            "calle":"NICOLAS TAMARAL Y PASEO UGARTE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 26,
+        "key": "LP-00011",
+        "name": "DIF MUNICIPAL CENTENARIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":29,
+            "colonia":"El Centenario",
+            "calle":"CONOCIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 27,
+        "key": "LP-00012",
+        "name": "DIF ESTATAL 8 DE OCTUBRE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":30,
+            "colonia":"8 de Octubre 2a Sección",
+            "calle":"CONSTITUYENTES DE 1975",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 28,
+        "key": "LP-00013",
+        "name": "DIF MUNICIPAL COLINA DE LA CRUZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":31,
+            "colonia":"Colina de La Cruz",
+            "calle":"MARCELO RUBIO EMANUEL TORRE IGLESIAS Y SALVATIERRA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 29,
+        "key": "LP-00014",
+        "name": "DIF MUNICIPAL LOMA LINDA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":32,
+            "colonia":"Loma Linda",
+            "calle":"AMP. 20 DE NOVIEMBRE FRENTE A LA IGLESI JUDAS TADEO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 30,
+        "key": "LP-00015",
+        "name": "DIF MUNICIPAL SANTA FE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":33,
+            "colonia":"Santa Fe",
+            "calle":"SAN MIGUEL Y SANTA ELVIRA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+
+        "id": 31,
+        "key": "LP-00016",
+        "name": "A. P. I. LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":34,
+            "colonia":"Puerto de Pichilingue",
+            "calle":"CARR. A PICHILINGUE KM 17",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 32,
+        "key": "LP-00017",
+        "name": "DIF ESTATAL LOMA LINDA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":35,
+            "colonia":"Loma Linda",
+            "calle":"JAIME BRAVO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 33,
+        "key": "LP-00018",
+        "name": "CERESO DE LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":36,
+            "colonia":"Emiliano Zapata",
+            "calle":"LUIS DONALDO COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 34,
+        "key": "CM-00005",
+        "name": "DOM. PARTICULAR  COMONDU",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":37,
+            "colonia":"Pioneros",
+            "calle":"SABAS LOPEZ Y FELIX ORTEGA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 35,
+        "key": "LP-00019",
+        "name": "SAPA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":38,
+            "colonia":"Zona Central",
+            "calle":"FELIX ORTEGA Y NORMAL URBANA",
+            "codigo_postal":"",
+            "numero": 2330,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 36,
+        "key": "LP-00020",
+        "name": "INSTITUTO NACIONAL ELECTORAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":39,
+            "colonia":"La Esperanza",
+            "calle":"GOLFO DE CALIFORNIA ENTRE OCEANO ATLANTICO",
+            "codigo_postal":"",
+            "numero": 180,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 37,
+        "key": "LP-00021",
+        "name": "DIF MUNICIPAL GUERRERO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":40,
+            "colonia":"Guerrero",
+            "calle":"MANUEL M. DIEGUEZ E\/BRAVO Y OCAMPO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 38,
+        "key": "LP-00022",
+        "name": "INSTITUTO DE CIENCIAS PENALES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":41,
+            "colonia":"SN",
+            "calle":"LUIS DONALDO COLOSIO ESQUINA AGUSTIN OLACHEA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 39,
+        "key": "LP-00024",
+        "name": "HOSPITAL SALVATIERRA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":42,
+            "colonia":"8 de Octubre 2a Sección",
+            "calle":"AVENIDA PASEO DE LOS DEPORTISTAS",
+            "codigo_postal":"",
+            "numero": 5115,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 40,
+        "key": "LP-00023",
+        "name": "INSTITUTO TECNOLÓGICO DE LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":43,
+            "colonia":"8 de Octubre 1a Sección",
+            "calle":"BLV. FORJADORES",
+            "codigo_postal":"",
+            "numero": 4720,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 41,
+        "key": "LP-00025",
+        "name": "CONGRESO DEL ESTADO DE BCS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":44,
+            "colonia":"Zona Central",
+            "calle":"NICOLAS BRAVO",
+            "codigo_postal":"",
+            "numero": 1306,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 42,
+        "key": "CB-00006",
+        "name": "INSTITUTO CALAFIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":45,
+            "colonia":"Brisas del Pacifico",
+            "calle":"BERNANRDO COBOS L5 MZA K",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 43,
+        "key": "LP-00026",
+        "name": "DIF MUNICIPAL MEZQUITITO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":46,
+            "colonia":"Mezquitito",
+            "calle":"JULIAN CASTILLO Y RODOLFO CORTINEZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 44,
+        "key": "CB-00007",
+        "name": "HOTEL VILLAS DEL PALMAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":47,
+            "colonia":"Modulo Turístico",
+            "calle":"CORREDOR TURISTICO CAMINO VIEJO A SAN JOSE DEL CABO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 45,
+        "key": "LP-00027",
+        "name": "CDC CALAFIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":48,
+            "colonia":"Calafia",
+            "calle":"FAGUA Y TEDA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 46,
+        "key": "LP-00028",
+        "name": "HOTEL MARINA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":49,
+            "colonia":"Lomas de Palmira",
+            "calle":"CARRETERA A PICHILINGUE KM 2.2",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 47,
+        "key": "CB-00008",
+        "name": "DOM PART ALTA TENSIÓN COL ZACATAL LOS CABOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":50,
+            "colonia":"Zacatal",
+            "calle":"ALTA TENSIÓN Y FORJADORES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 48,
+        "key": "LP-00029",
+        "name": "CHEDRAHUI COLIMA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":51,
+            "colonia":"Pueblo Nuevo",
+            "calle":"COLIMA ESQ. FCO. I. MADERO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 49,
+        "key": "LT-00008",
+        "name": "DOMICILIO PARTICULAR LORETO COL MIRAMAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":52,
+            "colonia":"Miramar",
+            "calle":"CARRETERA TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 50,
+        "key": "CB-00009",
+        "name": "TRANSITO MUNICIPAL LOS CANGREJOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":53,
+            "colonia":"Los Cangrejos",
+            "calle":"CONOCIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 51,
+        "key": "CB-00010",
+        "name": "RESTAURANTE EL JAROCHO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":54,
+            "colonia":"CONOCIDO",
+            "calle":"CONOCIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 52,
+        "key": "CB-00011",
+        "name": "FUNDACION ALFA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":55,
+            "colonia":"El Caribe",
+            "calle":"ISLA TRINIDAD MZ 130 LT 25",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 53,
+        "key": "CB-00012",
+        "name": "ESC. PRIMARIA RAMON GREEN ALVAREZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":56,
+            "colonia":"Lomas Altas",
+            "calle":"SAN FELIPE Y SAN CRISTOBAL",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 54,
+        "key": "CM-00006",
+        "name": "LOCAL COMERCIAL COL.RENERO COMONDU",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":57,
+            "colonia":"Renero",
+            "calle":"CORREGIDORA EZARAGOZA Y BENITO JUAREZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 55,
+        "key": "CM-00007",
+        "name": "DOM. PARTICULAR COMONDU PUEBLO NUEVO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":58,
+            "colonia":"Pueblo Nuevo",
+            "calle":"FELIPE ANGELES Y ADOLFO LOPEZ MATEOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 56,
+        "key": "LP-00030",
+        "name": "DIF MUNICIPAL FLORES MAGON",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":59,
+            "colonia":"Flores Magón",
+            "calle":"MARGARITA MAZA DE JUAREZ Y SINALOA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 57,
+        "key": "LP-00031",
+        "name": "DOMICILIO PARTICULAR DIANA LAURA JUSTICIA 289",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":60,
+            "colonia":"Diana Laura",
+            "calle":"CALLE JUSTICIA",
+            "codigo_postal":"",
+            "numero": 289,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 58,
+        "key": "LP-00032",
+        "name": "DIF MUNICIPAL GUELATAO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":61,
+            "colonia":"San Pablo Guelatao",
+            "calle":"CLODOMIRO COTA Y CONSTITUCION",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 59,
+        "key": "LP-00033",
+        "name": "DIF MUNICIPAL LAZARO CARDENAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":62,
+            "colonia":"LAZARO CARDENAS",
+            "calle":"HEROES DEL 47 ESQ. CONCEJALES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 60,
+        "key": "LP-00034",
+        "name": "CONAFE CONCHALITO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":63,
+            "colonia":"El Conchalito",
+            "calle":"OCEANO ATLANTICO",
+            "codigo_postal":"",
+            "numero": 4796,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 61,
+        "key": "CB-00013",
+        "name": "SALA DE JUNTAS DELEGACION MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":64,
+            "colonia":"Ejidal",
+            "calle":"BOULEVARD  MIGUEL HIDALGO KM 2 \/ CONSTITUCION Y CAMINO AL FARO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 62,
+        "key": "CB-00014",
+        "name": "THERAPY MASSAGE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":65,
+            "colonia":"Cabo San Lucas Centro",
+            "calle":"ZARAGOZA Y 20 DE NOVIEMBRE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 63,
+        "key": "LP-00035",
+        "name": "DIF MUNICIPAL LA FUENTE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":66,
+            "colonia":"La Fuente",
+            "calle":"VIENTO ESQ. MAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 64,
+        "key": "LP-00036",
+        "name": "DIF MUNICIPAL (OFICINAS)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":67,
+            "colonia":"Pueblo Nuevo",
+            "calle":"NAYARIT",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 65,
+        "key": "CM-00008",
+        "name": "CASA DE LA CULTURA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":68,
+            "colonia":"SANTA CECILIA",
+            "calle":"BAHIA DOLORES Y SAN CARLOS",
+            "codigo_postal":"",
+            "numero": 216,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 66,
+        "key": "LP-00037",
+        "name": "DIF MUNICIPAL AGUA ESCONDIDA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":69,
+            "colonia":"Agua Escondida",
+            "calle":"CALLE SEGUNDA ESQ. PALO FIERRO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 67,
+        "key": "LP-00038",
+        "name": "MI ESPACIO GENIAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":70,
+            "colonia":"La Fuente",
+            "calle":"LLIVIA ENTRE MAR Y SOL",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 68,
+        "key": "LP-00039",
+        "name": "CENTRO MUNICIPAL DE PREV. AL DELITO LOS CARDONES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":71,
+            "colonia":"Los Cardones",
+            "calle":"CALLE YUCA ESQ. CACTUS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 69,
+        "key": "LP-00040",
+        "name": "CENTRO DE DESARROLLO COMUNITARIO DIF MUNICIPAL LOS CARDONES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":72,
+            "colonia":"Los Cardones",
+            "calle":"CACTUS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 70,
+        "key": "LP-00041",
+        "name": "PGJE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":73,
+            "colonia":"Emiliano Zapata",
+            "calle":"ALVAREZ RICO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 71,
+        "key": "LT-00009",
+        "name": "BIBLIOTECA PÚBLICA MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":74,
+            "colonia":"Centro",
+            "calle":"CALLE DAVIS",
+            "codigo_postal":"",
+            "numero": "MZ 25",
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 72,
+        "key": "LT-00010",
+        "name": "A. P. I. LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":75,
+            "colonia":"Centro",
+            "calle":"BLVD ADOLFO LOPEZ MATEOS ESQ. ATANACIO CARRILLO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 73,
+        "key": "CM-00009",
+        "name": "DOMICILIO PARTICULAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":76,
+            "colonia":"INFONAVIT San Martín",
+            "calle":"SAN BARTOLO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 74,
+        "key": "CM-00010",
+        "name": "DIF ESTATAL CENTRO CONSTITUCION",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":77,
+            "colonia":"Zona Centro",
+            "calle":"IGNACIO ALLENDE Y LERDO DE TEJADA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 75,
+        "key": "CM-00011",
+        "name": "SECRETARIA DE FINANZAS DEL GOBIERNO (CONSTITUCION)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":78,
+            "colonia":"CENTRO",
+            "calle":"CARR. TRANSP. AL NORTE KM 212",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 76,
+        "key": "CB-00015",
+        "name": "SUBESTACION DE CFE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":79,
+            "colonia":"CABO SAN LUCAS",
+            "calle":"CARR. A TODOS SANTOS KM 7",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 77,
+        "key": "LT-00011",
+        "name": "DOMICILIO PARTICULAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":80,
+            "colonia":"Miramar",
+            "calle":"CARRETERA TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 78,
+        "key": "CM-00012",
+        "name": "DOMICILIO PARTICULAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":81,
+            "colonia":"Zona Centro",
+            "calle":"IGNACIO ZARAGOZA",
+            "codigo_postal":"",
+            "numero": 109,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 79,
+        "key": "LP-00042",
+        "name": "CITA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":82,
+            "colonia":"Adolfo Ruiz Cortines",
+            "calle":"VIRGINIA PERALTA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 80,
+        "key": "CB-00016",
+        "name": "ESC. SEC. ANTONIO MIJARES (SAN JOSE DEL CABO)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":83,
+            "colonia":"Primero de Mayo",
+            "calle":"VALERIO GONZALEZ CANSECO",
+            "codigo_postal":"",
+            "numero": 101,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 81,
+        "key": "CM-00013",
+        "name": "CASA DE LA CULTURA MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":84,
+            "colonia":"COSTADO SUR",
+            "calle":"MISION DE LORETO Y PUERTO SAN CARLOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 82,
+        "key": "CM-00014",
+        "name": "DOMICILIO PARTICULAR (IGNACIO ALLENDE # 133)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":85,
+            "colonia":"Zona Centro",
+            "calle":"IGNACIO ALLENDE",
+            "codigo_postal":"",
+            "numero": 133,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 83,
+        "key": "CB-00017",
+        "name": "DIF LAS PALMAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":86,
+            "colonia":"Las Palmas",
+            "calle":"PALMA COCOTERA E\/ PALMA FOSTERINA Y PALMA MOLINO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 84,
+        "key": "CM-00015",
+        "name": "DOMICILIO PARTICULAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":87,
+            "colonia":"Benito Juárez",
+            "calle":"EJIDO BENITO JUAREZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 85,
+        "key": "CM-00016",
+        "name": "DOMICILIO PARTICULAR (NIÑOS HEROES E\/ BASILIO POLANCO Y VIUDA TAPIA)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":88,
+            "colonia":"CONOCIDO",
+            "calle":"NIÑOS HEROES E\/ BASILIO POLANCO Y VIUDA TAPIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 86,
+        "key": "LP-00043",
+        "name": "DOM. PARTICULAR (ARCOIRIS III)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":89,
+            "colonia":"Arcoiris III",
+            "calle":"GIL B. MORALES Y DELGADO ANTONIO RUIZ",
+            "codigo_postal":"",
+            "numero": 436,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 87,
+        "key": "LP-00044",
+        "name": "SALON EJIDAL EL SARGENTO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":90,
+            "colonia":"El Sargento",
+            "calle":"CONOCIDO (EL SARGENTO B.C.S.)",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 88,
+        "key": "CB-00018",
+        "name": "OFICINAS DE LA CROC",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":91,
+            "colonia":"Ejidal",
+            "calle":"CALLE CABO SAN LUCAS Y CAMINO AL FARO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 89,
+        "key": "LP-00045",
+        "name": "DIF MUNICIPAL EL CALANDRIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":92,
+            "colonia":"Calandrio",
+            "calle":"ANTONIO MARTINEZ E\/VENADOS Y ARROYO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 90,
+        "key": "LP-00046",
+        "name": "JARDIN DE NIÑOS 230",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":93,
+            "colonia":"Ayuntamiento",
+            "calle":"ANTONIO CANALISO E\/ART. 115 Y AYUNTAMIENTO DE LA PAZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 91,
+        "key": "LP-00047",
+        "name": "UNIVERSIDAD PEDAGÓGICA NACIONAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":94,
+            "colonia":"Reforma",
+            "calle":"BLVD. FCO. J. MUJICA Y BENITO BELTRAN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 92,
+        "key": "CB-00019",
+        "name": "ESCUELA DE KARATE CISNEROS SHOTOKAN",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":95,
+            "colonia":"El Zacatal",
+            "calle":"DR ERNESTO CHAVEZ E\/ABELARDO RODRIGUEZ Y JOSE A. CASTRO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 93,
+        "key": "CB-00020",
+        "name": "SALA DE JUNTAS DEL DIF",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":96,
+            "colonia":"Jacarandas",
+            "calle":"CABO SAN LUCAS Y JACARANDAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 94,
+        "key": "CB-00021",
+        "name": "SALA D JUNTAS DEL DIF",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":97,
+            "colonia":"San José del Cabo Centro",
+            "calle":"MARGARITA MASA DE JUAREZ Y VICENTE GUERRERO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 95,
+        "key": "LP-00048",
+        "name": "CFE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":98,
+            "colonia":"CONOCIDO",
+            "calle":"KM 7 LIBRAMIENTO NORTE SANTIAGO OCEGUERA GUTIERREZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 96,
+        "key": "CM-00017",
+        "name": "A. P. I. SAN CARLOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":99,
+            "colonia":"Puerto San Carlos",
+            "calle":"INSTALACIONES DE API EN SAN CARLOS B.C.S.",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 97,
+        "key": "LT-00012",
+        "name": "SALA DE AUDIOVISUALDE LA BIBLIOTECA PUBLICA DE LORETO CARLOS CORTE LEYVA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":100,
+            "colonia":"Centro",
+            "calle":"PASEO VICTORIANO ARNES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 98,
+        "key": "LP-00049",
+        "name": "SALA AUDIOVISUAL DEL CREE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":101,
+            "colonia":"El Conchalito",
+            "calle":"CARRETERA TRANSPENINSULAR AL NORTE KM 4.5",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 99,
+        "key": "LP-00050",
+        "name": "ESCUELA PRIMARIA ADOLFO LOPEZ MATEOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":102,
+            "colonia":"Calafia",
+            "calle":"COLONIA CALAFIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 100,
+        "key": "LP-00051",
+        "name": "CENTRO DE DESARROLLO COMUNITARIO DIF MUNICIPAL EL CARDONAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":103,
+            "colonia":"Rinconada el Cardonal",
+            "calle":"CALLE CIRUELO ENTRE PALO DE ARCO PALO AMARILLO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 101,
+        "key": "LP-00052",
+        "name": "JARDIN DE NIÑOS PATRICIA MIRANDA AVILES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":104,
+            "colonia":"El Progreso",
+            "calle":"CALLE KALI ESQUINA CALLE SIN NOMBRE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 102,
+        "key": "LP-00058",
+        "name": "ESCUELA PRIMARIA LUIS RODRIGUEZ CHAVEZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":105,
+            "colonia":"CONOCIDO",
+            "calle":"VIRGINIA PERALTA ADOLFO RUIZ CORTINEZ CP 23040",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 103,
+        "key": "SR-00001",
+        "name": "A. P. I. SANTA ROSALIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":106,
+            "colonia":"Centro",
+            "calle":"INSTALACION DE API STA. ROSALIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 104,
+        "key": "LT-00013",
+        "name": "BIBLIOTECA MUNICIPAL LORETO BCS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":107,
+            "colonia":"Centro",
+            "calle":"PASEO AMES ENTRE URGARTE Y MAYORCA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 105,
+        "key": "LP-00053",
+        "name": "P. G. J. E.",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":108,
+            "colonia":"Emiliano Zapata",
+            "calle":"AGUSTIN OLACHEA ESQ. LUIS D. COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 106,
+        "key": "LP-00059",
+        "name": "DIF MUNICIPAL CIUDAD DEL CIELO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":109,
+            "colonia":"Ciudad del Cielo",
+            "calle":"FRANCISCO KING ENTRE LICENCIADO VERDAD Y MARCELO RUBIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 107,
+        "key": "LT-00014",
+        "name": "ESTETICA CLAUDIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":110,
+            "colonia":"Miramar",
+            "calle":"CARRETERA TRANSPENINSULAR AL NORTE CP 23880",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 108,
+        "key": "CM-00018",
+        "name": "ANTERIOR CONASUPO DE BENITO JUAREZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":111,
+            "colonia":"Benito Juárez",
+            "calle":"REFORMA ENTRE LERDO DE TEJADA Y MARIA LUISA BRAVO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 109,
+        "key": "LP-00060",
+        "name": "TELESECUNDARIA NUMERO 53 JOSE EMILIO PACHECO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":112,
+            "colonia":"Olas Altas",
+            "calle":"COLONIA OLAS ALTAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 110,
+        "key": "GN-00001",
+        "name": "CENTRO DE ATENCION Y DESARROLLO INFANTIL (CADI)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":113,
+            "colonia":"Profesor Marcelo Rubio",
+            "calle":"CONCEPCION CASILLAS CP 23940",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 111,
+        "key": "CB-00022",
+        "name": "CECATI",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":114,
+            "colonia":"Primero de Mayo",
+            "calle":"BLVD ANTONIO MIJARES ESQ VALERIO GONZALEZ CANSECO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 112,
+        "key": "SR-00002",
+        "name": "CADI SANTA ROSALIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":115,
+            "colonia":"Centro",
+            "calle":"VENUSTIANO CARRANZA Y VICENTE GUERRRO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 113,
+        "key": "LP-00061",
+        "name": "UNIVERSIDAD PEDAGOGICA NACIONAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":116,
+            "colonia":"Reforma",
+            "calle":"BLVD FCO J MUJICA Y BENITO BELTRAN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 114,
+        "key": "LT-00015",
+        "name": "CENTRO DE ATENCION Y DESARROLLO INFANTIL (CADI)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":117,
+            "colonia":"Centro",
+            "calle":"TAMARAL E HEROES DE INDEPENCIA Y PADRE KINO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 115,
+        "key": "LP-00062",
+        "name": "ESCUELA PRIMARIA ESTHELA CASTILLO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":118,
+            "colonia":"Ayuntamiento",
+            "calle":"CALLE AYUNTAMIENTO Y ANTONIO WILSON",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 116,
+        "key": "CM-00019",
+        "name": "GIMNASIO AUDITORIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":119,
+            "colonia":"Zona Centro",
+            "calle":"VENUSTIANO CARRANZA ESQ. LERDO DE TEJADA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 117,
+        "key": "CM-00020",
+        "name": "CASA DE CULTURA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":120,
+            "colonia":"Zona Centro",
+            "calle":"AVENIDA NORTE ESQUINA EDUARDO RUIZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 118,
+        "key": "LT-00016",
+        "name": "DESAYUNADOR ESCOLAR DIF",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":121,
+            "colonia":"Miramar",
+            "calle":"CALLE BALLENAS ESQ BOULEVARD DELFINES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 119,
+        "key": "LP-00063",
+        "name": "TELESECUNDARIA OLAS ALTAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":122,
+            "colonia":"Olas Altas",
+            "calle":"CALLE PICHILINGUE Y ACCESO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 120,
+        "key": "CM-00021",
+        "name": "INSTALACIONES DE CFE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":123,
+            "colonia":"Puerto San Carlos",
+            "calle":"PUERTO SAN CARLOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 121,
+        "key": "LP-00064",
+        "name": "ESCUELA PRIMARIA VALLE GOMEZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":124,
+            "colonia":"Indeco",
+            "calle":"CALLE TORONJA Y SIRIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 122,
+        "key": "SR-00003",
+        "name": "CFE SANTA ROSALIA BCS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":125,
+            "colonia":"Centro",
+            "calle":"INSTALACIONES CFE SANTA ROSALIA BCS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 123,
+        "key": "CB-00023",
+        "name": "DIF MUNICIPAL CABO SAN LUCAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":126,
+            "colonia":"Cabo San Lucas Centro",
+            "calle":"VIOLETA Y BLVD. CABO SAN LUCAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 124,
+        "key": "LP-00065",
+        "name": "CDC DIF MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":127,
+            "colonia":"Zona Central",
+            "calle":"TOPETE Y LEGASPI",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 125,
+        "key": "LP-00066",
+        "name": "ESCUELA PRIMARIA ROBERTO GARCIA TORTOLEDO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":128,
+            "colonia":"Villas de Guadalupe",
+            "calle":"SANTA ROSA DE LIMA ENTRE SAN RAMON NONATO Y SAN ISIDRO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 126,
+        "key": "LP-00067",
+        "name": "UNIDAD DE CAPACITACION LA PAZ",
+        "telephone_number": "6121211064",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":129,
+            "colonia":"3 de Mayo",
+            "calle":"Av. de los Deportistas y Bordo de Contención",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 127,
+        "key": "CM-00022",
+        "name": "AUDITORIO DE DIF MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":130,
+            "colonia":"Zona Centro",
+            "calle":"LERDO DE TEJADA Y ALLENDE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 128,
+        "key": "CM-00023",
+        "name": "AULA MOVIL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":131,
+            "colonia":"Zona Centro",
+            "calle":"20 DE NOVIEMBRE E\/ ROSAURA ZAPATA E IGNACIO ZARAGOZA",
+            "codigo_postal":"",
+            "numero": 126,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 129,
+        "key": "CB-00024",
+        "name": "CADI DIF BUENOS AIRES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":132,
+            "colonia":"Buenos Aires",
+            "calle":"AVENIDA DEL CIRUELO Y CASCALOZUCHILT",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 130,
+        "key": "LP-00068",
+        "name": "ESCUELA DE MUSICA DE LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":133,
+            "colonia":"Zona Central",
+            "calle":"MORELOS ESQUINA MARCELO RUBIO",
+            "codigo_postal":"",
+            "numero": 1055,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 131,
+        "key": "CB-00025",
+        "name": "ITES INSTITUTO TECNOLOGICO DE ESTUDIOS SUPERIORES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":134,
+            "colonia":"Guaymitas",
+            "calle":"BLVD TECNOLOGICO Y GANDHI",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 132,
+        "key": "LP-00069",
+        "name": "CASINO BELLAVISTA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":135,
+            "colonia":"Bella Vista",
+            "calle":"AVENIDA LA PAZ Y COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 133,
+        "key": "CM-00024",
+        "name": "OFICINAS DE GOBIERNO ANTERIOR BANRURAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":136,
+            "colonia":"Vargas",
+            "calle":"KILOMETRO 2012",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 134,
+        "key": "LP-00070",
+        "name": "SALA DE JUNTAS CFE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":137,
+            "colonia":"CONOCIDO",
+            "calle":"CENTRAL TERMOELECTRICA PUNTA PRIETA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 135,
+        "key": "CB-00026",
+        "name": "CECYTE 07",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":138,
+            "colonia":"CONOCIDO",
+            "calle":"CALLE ERNESTO GUEVARA",
+            "codigo_postal":"",
+            "numero": 23436,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 136,
+        "key": "CM-00025",
+        "name": "ICATEBCS COMONDU",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":139,
+            "colonia":"Vargas",
+            "calle":"CARRETERA TRANSPENINSULAR KM.212.5",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 137,
+        "key": "LP-00071",
+        "name": "PARQUE 20 DE NOVIEMBRE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":140,
+            "colonia":"20 de Noviembre",
+            "calle":"OCAMPO Y ALTA TENSION",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 138,
+        "key": "LP-00072",
+        "name": "SALA DE BOMBEROS DE LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":141,
+            "colonia":"CONOCIDO",
+            "calle":"AVENIDA DE LOS DEPORTISTAS Y COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 139,
+        "key": "17\/LT-002",
+        "name": "ECOALIANZA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":142,
+            "colonia":"Centro",
+            "calle":"CALLE SALVATIERRA ESQ BOULEVARD ADOLFO LOPEZ MATEOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 140,
+        "key": "LP-00073",
+        "name": "SALA CAPACITACION  DE LA PROCURADURIA DE BCS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":143,
+            "colonia":"CONOCIDO",
+            "calle":"COLOSIO ENTRE BLVD LAS GARZAS Y ALVAREZ RICO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 141,
+        "key": "LP-00074",
+        "name": "INSTALACIONES DEL NEGOCIO AGRICOLA SAN ENRIQUE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":144,
+            "colonia":"Melitón Albañez",
+            "calle":"MELITON ALBAÑEZ EJIDO KM24",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 142,
+        "key": "LP-00075",
+        "name": "FARMACIA FARMACON",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":145,
+            "colonia":"8 de Octubre 1a Sección",
+            "calle":"SIERRA DE LA GIGANTA M -17",
+            "codigo_postal":"",
+            "numero": 101,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 143,
+        "key": "LP-00076",
+        "name": "C.D.C. DIF DE LA COMUNIDAD DE SAN JUAN LOS PLANES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":146,
+            "colonia":"Los Planes",
+            "calle":"SAN JUAN LOS PLANES EN EL MUNICIPIO DE LA PAZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 144,
+        "key": "LP-00077",
+        "name": "ESC. PRIM. RURAL D EL ROSARIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":147,
+            "colonia":"El Rosario 1",
+            "calle":"EL MUNICIPIO DE LA PAZ B.C.S KM 40 CARRETERA TRANSPENINSULAR VIA LARGA DESVIACION 7 KMS ALA SIERRA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 145,
+        "key": "LP-00078",
+        "name": "UNIVERSIDAD AUTONOMA DE BAJA CALIFORNIA SUR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":148,
+            "colonia":"CONOCIDO",
+            "calle":"CARRETERA AL SUR KM 505 CP 23080",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 146,
+        "key": "LP-00079",
+        "name": "LECHE CARACOL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":149,
+            "colonia":"CONOCIDO",
+            "calle":"BOULEVARD LAS GARZAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 147,
+        "key": "CB-00027",
+        "name": "DIF LOMAS DEL SOL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":150,
+            "colonia":"CONOCIDO",
+            "calle":"CALLE ESTRELLA Y CALLE MARTE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 148,
+        "key": "CM-00026",
+        "name": "POBLADO BENITO JUAREZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":151,
+            "colonia":"Benito Juárez",
+            "calle":"CALLE MARIA LUISA BRAVO POBLADO BENITO JUAREZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 149,
+        "key": "CB-00028",
+        "name": "DIF 4 DE MARZO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":152,
+            "colonia":"CONOCIDO",
+            "calle":"CALLE CERRADA ENTRE CONSTITUYENTES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 150,
+        "key": "CM-00027",
+        "name": "CENTRO CIVICO RAMADITAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":153,
+            "colonia":"Ramaditas",
+            "calle":"POBLADO RAMADITAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 151,
+        "key": "LP-00080",
+        "name": "CECYT 08",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":154,
+            "colonia":"El Camino Real",
+            "calle":"C. DEL ARRIERO E\/ SALMON Y OCRE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 152,
+        "key": "LP-00081",
+        "name": "CENTRO DE AYUDA HUMANITARIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":155,
+            "colonia":"Agua Escondida",
+            "calle":"CARDON Y PALO COLORADO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 153,
+        "key": "LP-00082",
+        "name": "ESCUELA PRIMARIA FERNANDO JORDAN JUAREZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":156,
+            "colonia":"CONOCIDO",
+            "calle":"VENUSTIANO CARRANZA \/ 16 DE SEPTIEMBRE Y REFORMA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 154,
+        "key": "CB-00029",
+        "name": "SALA DE JUNTAS DEL AYUNTAMIENTO DE SAN JOSE DEL CABO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":157,
+            "colonia":"Santa Rosa",
+            "calle":"SALA DE JUNTAS DEL AYUNTAMIENTO DE SAN JOSE DEL CABO LOCAL 8 PLAZA ARAMBURO \/ TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 155,
+        "key": "CB-00030",
+        "name": "CLIMAS INTEGRALES Y REFRIGERACION (DOMICILIO FISCAL)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":158,
+            "colonia":"Zacatal",
+            "calle":"C. DR. EDUARDO RODRIGUEZ C. MZA 7 LOTE 65",
+            "codigo_postal":"",
+            "numero": 911,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 156,
+        "key": "CB-00031",
+        "name": "UABCS LOS CABOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":159,
+            "colonia":"CENTRO",
+            "calle":"BOULEVARD AVENIDA DE LA JUVENTUD Y JUAREZ",
+            "codigo_postal":"",
+            "numero": 17,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 157,
+        "key": "LP-00083",
+        "name": "SALON CALAFIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":160,
+            "colonia":"Calafia",
+            "calle":"CALLE CALAFIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 158,
+        "key": "CB-00032",
+        "name": "HOTEL GRAN VELAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":161,
+            "colonia":"CONOCIDO",
+            "calle":"CARRETERA TRANSPENINSULAR A SAN JOSE KM 27",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 159,
+        "key": "LP-00084",
+        "name": "CBTIS 230",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":162,
+            "colonia":"Flores Magón",
+            "calle":"EMILIANO ZAPATA \/ FLORES MAGON",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 160,
+        "key": "CB-00033",
+        "name": "AULA CAPACITACION OOMSAPALC LOS CABOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":163,
+            "colonia":"Cabo San Lucas Centro",
+            "calle":"CALLE GUERRERO \/ CORONADO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 161,
+        "key": "CB-000034",
+        "name": "CECYTE 04",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":164,
+            "colonia":"Santa Rosa",
+            "calle":"AVENIDA PESCADORES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 162,
+        "key": "cb-00034",
+        "name": "CECYT 05",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":165,
+            "colonia":"El Caribe",
+            "calle":"AVENIDA PEZ PARGOS PLATEADO ENTRE PEZ XIFO Y AVENIDA LOS QUELONES",
+            "codigo_postal":"",
+            "numero": 23477,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 163,
+        "key": "CB-00035",
+        "name": "PARQUE 4 DE MARZO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":166,
+            "colonia":"4 de Marzo",
+            "calle":"CALLE TOLTECAS Y TEZOZOMOC",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 164,
+        "key": "CB-00036",
+        "name": "INSTITUTO CULTURAL BALDOR",
+        "telephone_number": "6241431215",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":167,
+            "colonia":"Cerro de los Venados",
+            "calle":"CARRETERA TRANSPENINSULAR KM 7.7 C.P. 23450",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 165,
+        "key": "LP-00085",
+        "name": "C.D.C. DIF ESTATAL AGUSTIN OLACHEA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":168,
+            "colonia":"Agustín Olachea",
+            "calle":"FRANCISCO KING E\/ ACCESO Y CALLE MEXICO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 166,
+        "key": "LP-00086",
+        "name": "INSTITUTO MUNICIPAL DE LA MUJER",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":169,
+            "colonia":"Zona Central",
+            "calle":"IGNACIO ALLENDE ZONA CENTRAL 23000",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 167,
+        "key": "LP-00087",
+        "name": "PARQUE LAGUNITAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":170,
+            "colonia":"La Lagunita",
+            "calle":"VILLAS DE GUADALUPE \/ AZUCENA Y MARGARITA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 168,
+        "key": "CB-00037",
+        "name": "TERMINAL SANTA ANITA",
+        "telephone_number": "6121312341",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":171,
+            "colonia":"Santa Anita",
+            "calle":"Carretera Transpeninsular",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 169,
+        "key": "LP-00088",
+        "name": "SEDESOL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":172,
+            "colonia":"0",
+            "calle":"CALZADA GENERAL AGUSTIN OLACHEA ESQ. BLVD. LUID DONALDO COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 170,
+        "key": "LP-00089",
+        "name": "FANOSA",
+        "telephone_number": "6121146468",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":173,
+            "colonia":"0",
+            "calle":"AVENIDA SEGUNDA LOTE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 171,
+        "key": "LP-00090",
+        "name": "CENTRO COMUNITARIO LOS PLANES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":174,
+            "colonia":"Zona Central",
+            "calle":"BLVD. FRANCISCO Y MADERO LOS PLANES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 172,
+        "key": "LP-00091",
+        "name": "PARQUE  MARQUEZ DE LEON",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":175,
+            "colonia":"Marquez de Leon",
+            "calle":"CALLE1 E ISLA SANTA CRUZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 173,
+        "key": "MG-00001",
+        "name": "SALA DE CAPACITACION DEL NEGOCIO AGRICOLA",
+        "telephone_number": "615151112017",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":176,
+            "colonia":"Vizcaíno",
+            "calle":"CARRETERA TRANSPENINSULAR KM 142",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 174,
+        "key": "CB-00038",
+        "name": "SALA DE CAPACITACION DE LOS BOMBEROS",
+        "telephone_number": "6241213334",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":177,
+            "colonia":"El Medano",
+            "calle":"CAMINO REAL EJIDAL, MARINA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 175,
+        "key": "LP-00092",
+        "name": "INSTALACIONES DE DICONSA",
+        "telephone_number": "6121771010",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":178,
+            "colonia":"Las Garzas",
+            "calle":"BOULEVARD  AGUSTIN OLACHE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 176,
+        "key": "LP-00093",
+        "name": "C.D.C. DIF LA PASION",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":179,
+            "colonia":"La Pasión C",
+            "calle":"ABEDUL Y ARNICA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 177,
+        "key": "LP-00094",
+        "name": "RANCHO EL BAJIO",
+        "telephone_number": "6121569024",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":180,
+            "colonia":"Los Planes",
+            "calle":"LOS PLANES KM 39 CARRETERA LOS PLANES  10 KM ALA DERECHA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 178,
+        "key": "LP-00095",
+        "name": "PRIMARIA LAZARO CARDENAS",
+        "telephone_number": "6121569024",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":181,
+            "colonia":"Santa Rita",
+            "calle":"CARRETERA TRANSPENINSULAR AL NORTE KM 157 SANTA RITA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 179,
+        "key": "LP-00096",
+        "name": "ESCUELA PRIMARIA DEL EJIDO JUAN DOMINGUEZ COTA",
+        "telephone_number": "6121569024",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":182,
+            "colonia":"Los Planes",
+            "calle":"EJIDO JUAN DOMINGUEZ COTA CARRETERA LOS PLANES",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 180,
+        "key": "LP-00097",
+        "name": "INSTALACIONES DE CONANP",
+        "telephone_number": "6121316837",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":183,
+            "colonia":"Sector La Selva Fidepaz",
+            "calle":"AVENIDA CONSTITUYENTES DE 1975 \/ BAHIA BALLENAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 181,
+        "key": "LP-00098",
+        "name": "INSTALACIONES DE INSUDE, SALA DE CAPACITACION",
+        "telephone_number": "",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":184,
+            "colonia":"Adolfo Ruiz Cortines",
+            "calle":"BOULEVARD FORJADORES KM 3",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 182,
+        "key": "LP-00099",
+        "name": "CASA DE DIA AMOR Y ESPERANZA",
+        "telephone_number": "",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":185,
+            "colonia":"Rosaura Zapata",
+            "calle":"CALLE MIRA FLORES \/ AVENIDA 3RA Y 4TA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 183,
+        "key": "CM-00028",
+        "name": "DIF DE INSURGENTES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":186,
+            "colonia":"El Agricultor INDECO",
+            "calle":"ALLENDE \/ 5 E MAYO Y LOPEZ MATEOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 184,
+        "key": "LP-00100",
+        "name": "C.D.C. DIF MUNICIPAL NAVARRO RUBIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":187,
+            "colonia":"Antonio Navarro Rubio",
+            "calle":"JAVIER MINA \/ VICENTE GUERRERO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 185,
+        "key": "CB-00039",
+        "name": "COMEDOR HUELLAS DE CORAZON",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":188,
+            "colonia":"Las Palmas",
+            "calle":"CALLE SIN NOMBRE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 186,
+        "key": "BALDOR123",
+        "name": "INSTITUTO CULTURAL BALDOR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":189,
+            "colonia":"0",
+            "calle":"CARRETERA TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 187,
+        "key": "LT-00017",
+        "name": "INSTITUTO MUNICIPAL DE ATENCION A LA JUVENTUD EN LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":190,
+            "colonia":"Centro",
+            "calle":"MAGDALENA DE KINO \/ FRANCISCO I MADERO Y CALLE DAVIS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 188,
+        "key": "LP-00101",
+        "name": "INSTALACIONES DE PROSPERA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":191,
+            "colonia":"Las Garzas",
+            "calle":"BLVD. AGUSTIN OLACHEA ESQUINA BLVD. LUIS DONALDO COLOSIO , RESIDENCIAL LAS GARZAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 189,
+        "key": "LP-00102",
+        "name": "INSTITUTO INTERDICIPLINARIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":192,
+            "colonia":"Las Garzas",
+            "calle":"GARZAS Y COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 190,
+        "key": "LP-00103",
+        "name": "CONALEP CENTRAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":193,
+            "colonia":"Emiliano Zapata",
+            "calle":"LI. ANTONIO ALVAREZ RICO \/ EMILIANO ZAPATA CP. 23070",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 191,
+        "key": "LP-00104",
+        "name": "UNIVERSIDAD MUNDIAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":194,
+            "colonia":"Pueblo Nuevo",
+            "calle":"AV. ABASOLO \/ COLIMA Y COLOSIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 192,
+        "key": "LP-00105",
+        "name": "CASA MOSHO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":195,
+            "colonia":"El Camino Real",
+            "calle":"CALLE SALMON \/ ARTICULO 115 Y LILA",
+            "codigo_postal":"",
+            "numero": 358,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 193,
+        "key": "CM-00029",
+        "name": "INSTITUTO TECNOLOGICO SUPERIOR DE CIUDAD CONSTITUCION",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":196,
+            "colonia":"4 de Marzo",
+            "calle":"PROFESOR MARCELO RUBIO \/ AMPLIACION 4 DE MARZO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 194,
+        "key": "CB-00040",
+        "name": "SALA DE CAPACITACION DEL HOSPITAL GENERAL DR. A. CARILLO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":197,
+            "colonia":"El Chamizal",
+            "calle":"RETORNO ATUNEROS C.P. 23400",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 195,
+        "key": "LT-00018",
+        "name": "SALA AUDIOVISUAL DE LA NORMAL SUPERIOR (CREEN)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":198,
+            "colonia":"Centro",
+            "calle":"C. SALVATIERRA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 196,
+        "key": "CM-00030",
+        "name": "ESCUELA SECUNDARIA TECNICA #4",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":199,
+            "colonia":"Zona Centro",
+            "calle":"PUERTO MAZATLAN ESQUINA CON PUERTO ACAPULCO \/ PUERTO SAN CARLOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 197,
+        "key": "LP-00106",
+        "name": "CENTRO DE DESARROLLO COMUNITARIO 8 DE OCTUBRE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":200,
+            "colonia":"8 de Octubre 2a Sección",
+            "calle":"SIERRA DE LA VICTORIA FORJADORES Y SIERRA DE LA GIGANTA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 198,
+        "key": "LP-00107",
+        "name": "JARDIN DE NIÑOS COMUNITARIO (EJIDO REFORMA AGRARIA)",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":201,
+            "colonia":"Las Pocitas",
+            "calle":"CARRETERA AL NORTE KM 38 \/ COMUNIDAD LEY FEDERAL DE REFORMA AGRARIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 199,
+        "key": "MG-00002",
+        "name": "AULA AUDIO VISUAL DE CFE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":202,
+            "colonia":"El Retiro",
+            "calle":"CARRETERA AL NORTE KM 15",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 200,
+        "key": "CB-00041",
+        "name": "INSTITUTO DE CIENCIAS Y HUMANIDADES YENEKAMU",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":203,
+            "colonia":"0",
+            "calle":"CALLE CABO SAN LUCAS \/ CALLE ALIKAN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 201,
+        "key": "LP-00108",
+        "name": "COMUNIDAD DE SAN BLAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":204,
+            "colonia":"Zona Central",
+            "calle":"CARRETERA AL SUR, LA PAZ -SAN JOSE DEL CABO, KM 178 CP. 23211",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 202,
+        "key": "LP-00109",
+        "name": "ICATCDMX",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":205,
+            "colonia":"DOCTORES",
+            "calle":"CALLE DOCTOR LUCIO 3ER PISO DEL CUAUHTEMOC",
+            "codigo_postal":"",
+            "numero": 220,
+            "city_id": 279
+        },
+        "center":1
+    },
+    {
+        "id": 203,
+        "key": "LP-00110",
+        "name": "INSTALACIONES DE LA ESCUELA PRIMARIA JOSE ROSARIO GARCIA SANCHEZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":206,
+            "colonia":"LOS OLIVOS",
+            "calle":"VENUSTIANO CARRANZA \/ BENITO JUAREZ Y NORMALURBANA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 204,
+        "key": "LP-00111",
+        "name": "CENTRO DE ATENCION A LA MUJER",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":207,
+            "colonia":"DIANA LAURA",
+            "calle":"SIMBOOS PATRIOS Y ARTICULO 09",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 205,
+        "key": "LP-00112",
+        "name": "C.D.C. VISTA HERMOSA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":208,
+            "colonia":"VISTA HERMOSA",
+            "calle":"LUCERO Y NORTE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 206,
+        "key": "CB-00042",
+        "name": "INSTALACIONES DE DIRECCIÓN GENERAL DE SEGURIDAD PÚBLICA Y TRANSITO MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":209,
+            "colonia":"CONOCIDO",
+            "calle":"CARRETERA A TODOS SANTOS KM 2, LOS CABOS, B.C.S.",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 207,
+        "key": "CB-00043",
+        "name": "SALON DE BELLEZA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":210,
+            "colonia":"FRACCIONAMIENTO LA JOYA",
+            "calle":"CALLE EL SAUZAL MANZANA 08 LOTE 21",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 208,
+        "key": "CM-00031",
+        "name": "DIF PUERTO LOPEZ MATEOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":211,
+            "colonia":"CONOCIDO",
+            "calle":"CONOCIDO, PUERTO ADOLFO LOPEZ MATEOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 209,
+        "key": "CB-00044",
+        "name": "SALA DE CAPACITACION CLUB CASCADAS DE BAJA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":212,
+            "colonia":"EL MEDANO EJIDAL",
+            "calle":"CAMINO VIEJO A SAN JOSE DEL CABO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 210,
+        "key": "LP-00113",
+        "name": "ESTANCIA INFANTIL ESTRELLITA DE LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":213,
+            "colonia":"CENTRO",
+            "calle":"MELCHOR OCAMPO \/ SERDAN Y GUILLERMO PRIETO C.P. 23000",
+            "codigo_postal":"",
+            "numero": 406,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 211,
+        "key": "LP-00114",
+        "name": "COMUNIDAD LAS POCITAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":214,
+            "colonia":"LAS POCITAS",
+            "calle":"CARRTERA TRANSPENINSULAR KM 112 DELEGACION DE DOLORES C.P. 23150",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 212,
+        "key": "LP-00115",
+        "name": "ESCUELA PRIMARIA ANTONIO VERDUGO VERDUZCO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":215,
+            "colonia":"PITAHAYA",
+            "calle":"C. SABILA Y FLORA DEL DESIERTO C.P. 23089",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 213,
+        "key": "LP-00116",
+        "name": "SALA DE LA ACADEMIA ESTATAL DE SEGURIDAD PUBLICA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":216,
+            "colonia":"CALAFIA",
+            "calle":"CARRETERA AL SUR KM 17.5 CALLE CALAFIA C.P. 23054",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 214,
+        "key": "CB-00045",
+        "name": "CASA HOGAR LUZ EN MI VIDA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":217,
+            "colonia":"VISTA HERMOSA",
+            "calle":"SUPER MANZANA 14 LOTE 1",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 215,
+        "key": "LP-00117",
+        "name": "ISMUJER",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":218,
+            "colonia":"CENTRO",
+            "calle":"ANTONIO ROSALES \/ SERDAN Y GUILLERMO PRIETO",
+            "codigo_postal":"",
+            "numero": 2040,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 216,
+        "key": "LP-00118",
+        "name": "ESCUELA PRIMARIA JERONIMO AHUMADA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":219,
+            "colonia":"GUADALUPE VICTORIA",
+            "calle":"GUADALUPE VICTORIA \/ VENUSTIANO CAARANZA Y OLACHEA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 217,
+        "key": "LP-00119",
+        "name": "COMUNIDAD DE SAN ANDRES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":220,
+            "colonia":"RANCHO SAN ANDRES",
+            "calle":"DELEGACION DE TODOS SANTOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 218,
+        "key": "CB-00046",
+        "name": "CBTIS 256",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":221,
+            "colonia":"CONOCIDO",
+            "calle":"CALLE LOS PINOS Y LA JOLLA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 219,
+        "key": "LP-00120",
+        "name": "SALA DE JUNTAS DEL COBACH",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":222,
+            "colonia":"CENTRO",
+            "calle":"ANTONIO NAVARRO \/ AQUILES SERDAN Y GUILLERMO PRIETO",
+            "codigo_postal":"",
+            "numero": 462,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 220,
+        "key": "LP-00121",
+        "name": "OFICINAS GRUPO ALPHA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":223,
+            "colonia":"PUEBLO NUEVO",
+            "calle":"JOSEFA ORTIZ DE DOMINGUEZ \/ CUAHTEMOC \/ 5 DE FEBRERO CODIGO POSTAL 23060",
+            "codigo_postal":"",
+            "numero": 462,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 221,
+        "key": "CB-00047",
+        "name": "COLEGIO DE BACHILLERES 02",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":224,
+            "colonia":"EL ROSARITO",
+            "calle":"CARRETERA TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 222,
+        "key": "LP-00122",
+        "name": "SALA DE JUNTAS DE LA DELEGACION DEL IMSS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":225,
+            "colonia":"ESTERITO",
+            "calle":"FRANCISCO I MADERO ESQUINA COLEGIO MILITAR",
+            "codigo_postal":"",
+            "numero": 315,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 223,
+        "key": "LP-00123",
+        "name": "SALA DE JUNTAS D LA SETUES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":226,
+            "colonia":"CONOCIDO",
+            "calle":"PARQUE ACUATICO EL COROMUEL KM 3.5 CARRETERA A PICHILINGUE 23019",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 224,
+        "key": "CB-00048",
+        "name": "CRUZ ROJA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":227,
+            "colonia":"EJIDAL",
+            "calle":"PARQUE ACUATICO EL COROMUEL KM 3.5 CARRETERA A PICHILINGUE 23019",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 225,
+        "key": "CM-00032",
+        "name": "CERESO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":228,
+            "colonia":"LAS PALMAS",
+            "calle":"CALLE CONOCIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 226,
+        "key": "CM-00033",
+        "name": "SALON CIVICO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":229,
+            "colonia":"CONOCIDO",
+            "calle":"SALON CIVICO EJIDO # 1",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 227,
+        "key": "CB-00049",
+        "name": "OFICINA DE CATAC",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":230,
+            "colonia":"CONOCIDO",
+            "calle":"EN PASEO DE LA MARINA",
+            "codigo_postal":"",
+            "numero": 23457,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 228,
+        "key": "LT-00019",
+        "name": "DIF ZARAGOZA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":231,
+            "colonia":"CONOCIDO",
+            "calle":"CLODOMIRO COTA ESQUINA BORDO DE CONTECCION",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 229,
+        "key": "CB-00050",
+        "name": "UNIVERSIDAD MUNDIAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":232,
+            "colonia":"CAMPO GOLF FONATUR",
+            "calle":"BOULEVARD ANTONIO MIJARES",
+            "codigo_postal":"",
+            "numero": 23400,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 230,
+        "key": "CM-00034",
+        "name": "SALON DE DESARROLLO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":233,
+            "colonia":"CONOCIDO",
+            "calle":"COMUNIDAD DE PALO BOLA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 231,
+        "key": "19\/CB-00051",
+        "name": "OFICINAS COORDINACION IEEA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":234,
+            "colonia":"CONOCIDO",
+            "calle":"CALLE BALLENA Y VISTA HERMOSA 23400",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 232,
+        "key": "LP-00124",
+        "name": "CENTRO DE JUSTICIA PARA LAS MUJERES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":235,
+            "colonia":"EX BASE AEREA",
+            "calle":"CARABINEROS \/ LUIS DONALDO COLOSIO MURRIETA Y  CALE SAN ANTONIO",
+            "codigo_postal":"",
+            "numero": 23050,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 233,
+        "key": "CB-00051",
+        "name": "SALON DE CURSOS TABACHINES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":236,
+            "colonia":"EL ARENAL",
+            "calle":"PASEO BUGAMBILIA MZA- 2 LTE-2",
+            "codigo_postal":"",
+            "numero": "LTE-2",
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 234,
+        "key": "CB-00052",
+        "name": "SAL DE JUNTAS DEL INSTITUTO MUNICIPAL DEL DEPORTE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":237,
+            "colonia":"CENTRO",
+            "calle":"PROLONGACION ZARAGOZA",
+            "codigo_postal":"",
+            "numero": "CP 23400",
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 235,
+        "key": "CM-00035",
+        "name": "ASOCIACION DE DISCAPACITADOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":238,
+            "colonia":"4 DE MAYO",
+            "calle":"MARCELO RUBIO RUIZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 236,
+        "key": "CB-00053",
+        "name": "CECYTE 03 PLANTEL SANTIAGO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":239,
+            "colonia":"CONOCIDO",
+            "calle":"DELAGACION SANTIAGO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 237,
+        "key": "CM-00036",
+        "name": "COMUNIDAD DE VILLA MORELOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":240,
+            "colonia":"CONOCIDO",
+            "calle":"ESCUELA HEROES DE INDEPENDENCIA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 238,
+        "key": "CM-00037",
+        "name": "PUERTO SAN CARLOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":241,
+            "colonia":"CONOCIDO",
+            "calle":"ISLA MAGDALENA",
+            "codigo_postal":"",
+            "numero": 230,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 239,
+        "key": "CB-00054",
+        "name": "SALA DE CINE DEL PABELLON CULTURAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":242,
+            "colonia":"CENTRO CP. 23400",
+            "calle":"EN PASEO DE LA MARINA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 240,
+        "key": "CM-00038",
+        "name": "PARTICULAR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":243,
+            "colonia":"CONOCIDO",
+            "calle":"CARRETERA TRANSPENINSULAR KM 198",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 241,
+        "key": "LP-00125",
+        "name": "EBDI 110 ISSTE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":244,
+            "colonia":"PUESTA DEL SOL",
+            "calle":"ALTAMIRANO Y TONATIUH",
+            "codigo_postal":"",
+            "numero": 153,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 242,
+        "key": "9\/CM-039",
+        "name": "CETMAR, PUERTO SAN CARLOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":245,
+            "colonia":"SN",
+            "calle":"CONOCIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 243,
+        "key": "CB-00055",
+        "name": "PROFESOR LEONARDO COBOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":246,
+            "colonia":"EJIDAL CP. 23400",
+            "calle":"INFONAVIT BRISAS DEL PACIFICO",
+            "codigo_postal":"",
+            "numero": "LTE-5 MZA-K",
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 244,
+        "key": "CM-00039",
+        "name": "DIF PUERTO SAN CARLOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":247,
+            "colonia":"CONOCIDO",
+            "calle":"PUERTO LA PAZ \/ PUERTO ESCONDIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 245,
+        "key": "CB-00056",
+        "name": "CLUB DEL ABUELO SAN MIGUEL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":248,
+            "colonia":"LOS VENADOS",
+            "calle":"AVENIDA DE LOS CABOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 246,
+        "key": "LP-00123",
+        "name": "COMISION FEDERAL DE ELECTRICIDAD",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":249,
+            "colonia":"LAS GARZS C.P. 23079",
+            "calle":"CHIAPAS ESQUINA NAYARIT",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 247,
+        "key": "CM-00040",
+        "name": "AUDITORIO MUNICIPAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":250,
+            "colonia":"CONOCIDO",
+            "calle":"BOULEVARD BENITO JUAREZ ESQUINA BOULEVARD 20 DE NOVIEMBRE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 248,
+        "key": "CM-00041",
+        "name": "INSTALACIONES DE LA ZONA DE TRANSMISION SUR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":251,
+            "colonia":"REVOLUCION MEXICANA",
+            "calle":"CARRETERA LA PAZ CONSTITUCION KM 2017",
+            "codigo_postal":"",
+            "numero": "C.P. 23600",
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 249,
+        "key": "CB-00057",
+        "name": "UNIVERSIDAD AUTONOMA DE BCS, CAMPUS CABO SAN LUCAS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":252,
+            "colonia":"CONOCIDO",
+            "calle":"AVENIDA DE LA JUVENTUD",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 250,
+        "key": "LP-00124",
+        "name": "RESTAURANTE EL ZARAPE",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":253,
+            "colonia":"LAS GARZAS",
+            "calle":"MEXICO \/ OAXACA",
+            "codigo_postal":"",
+            "numero": 3450,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 251,
+        "key": "LP-00125",
+        "name": "SALON EVENTOS LA VIANDA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":254,
+            "colonia":"RENACIMIENTO C.P. 23070",
+            "calle":"C. MAGUEY",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 252,
+        "key": "LP-00126",
+        "name": "JARDIN DE NIÑO DE LA COMUNIDAD DE SANTA RITA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":255,
+            "colonia":"POBLADO DE SANTA RITA",
+            "calle":"KM 157 CARRETERA TRANSPENINSULAR  LA PAZ, CONSTITUCION LIC. BENITO JUAREZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 253,
+        "key": "LP-00127",
+        "name": "CASA DEL ARTESANO DE TRIUNFO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":256,
+            "colonia":"POBLADO EL TRIUNFO",
+            "calle":"CARRETERA TRANSPENINSULAR LIC. BENITO JUAREZ ESQUINA CALLE PROGRESO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 254,
+        "key": "LP-00128",
+        "name": "RESTAURANTE LA PALAPA DEL SABOR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":257,
+            "colonia":"POBLADO DE TODOS SANTOS",
+            "calle":"C. MANUEL MARQUEZ DE LEON \/ TODOS SANTOS \/ HEROICO COLEGIO MILITAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 255,
+        "key": "CB-00058",
+        "name": "SALA DE JUNTAS AUDIOVISUAL COBACH 02",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":258,
+            "colonia":"ROSARITO, CP 23400",
+            "calle":"CARRETERA TRANSPENINSULAR",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 256,
+        "key": "CB-00059",
+        "name": "SAL DE JUNTAS, DELEGACION LA RIBERA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":259,
+            "colonia":"CONOCIDO",
+            "calle":"CONOCIDO LA RIBERA B.C.S.",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 257,
+        "key": "LP-00129",
+        "name": "CASA DE LA CULTURA TODOS SANTOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":260,
+            "colonia":"POBLADO DE TODOS SANTO CP. 23300",
+            "calle":"AVENIDA LICENCIADO BENITO JUAREZ, ESQUINA GENERAL ALVARO OBREGON",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 258,
+        "key": "CB-00060",
+        "name": "SALA DE JUNTAS INDEM",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":261,
+            "colonia":"CENTRO",
+            "calle":"C. COPA MEXICO 86, UNIDAD DEPORTIVA RODRIGO ARAGON CESEÑA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 259,
+        "key": "LT-00020",
+        "name": "INSTITUTO DE LA MUJER",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":262,
+            "colonia":"CONOCIDO",
+            "calle":"LORETO B.C.S.",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 260,
+        "key": "LP-00130",
+        "name": "INSTALACIONES DE TRANSITO MUNICIPAL LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":263,
+            "colonia":"LAS GARZAS",
+            "calle":"MEXICO\/ COLIMA C.P. 23070",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 261,
+        "key": "LT-00021",
+        "name": "PALAPA COMUNITARIA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":264,
+            "colonia":"CONOCIDO",
+            "calle":"CALLE PRINCIPAL,SAN JAVIER",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 262,
+        "key": "MG-00003",
+        "name": "RESTAURANTE DONEY MELYS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":265,
+            "colonia":"CONOCIDO",
+            "calle":"HEROICA MULEGE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 263,
+        "key": "MG-00004",
+        "name": "SALA DE JUNTAS HOTEL DESERT INN",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":266,
+            "colonia":"CONOCIDO",
+            "calle":"SAN IGNACIO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 264,
+        "key": "LP-00131",
+        "name": "ALMACENES DEL IMSS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":267,
+            "colonia":"LA RINCONADA",
+            "calle":"CUAUHTEMOC \/ CARRRANZA",
+            "codigo_postal":"",
+            "numero": 2445,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 265,
+        "key": "LT-00024",
+        "name": "OFICINA DE ASOCIACION DE HOTELES DE LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":268,
+            "colonia":"CONOCIDO",
+            "calle":"CARRETERA TRANSPENINSULAR KM 199",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 266,
+        "key": "CM-00042",
+        "name": "SALON DE DISCAPACITADOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":269,
+            "colonia":"4 DE MARZO",
+            "calle":"CONOCIDO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 267,
+        "key": "LP-00132",
+        "name": "INSTALACIONES DEL COLEGIO REHILETE DE LA PAZ",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":270,
+            "colonia":"PUEBLO NUEVO",
+            "calle":"BELISARIO DOMINGUEZ ESQUINA NAYARIT",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 268,
+        "key": "LP-00133",
+        "name": "HOTEL SAN CRISTOBAL TODOS SANTOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":271,
+            "colonia":"TODOS SANTOS",
+            "calle":"CARRETERA FEDERAL KM. 54+800 PLAYA PUNTA LOBOS",
+            "codigo_postal":"",
+            "numero": 19,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 269,
+        "key": "LT-00025",
+        "name": "CASA DE LA CULTURA LORETO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":272,
+            "colonia":"CENTRO",
+            "calle":"BOULEVARD PASEO DE UGARTE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 270,
+        "key": "LP-00134",
+        "name": "CASA DEL EMPRENDEDOR",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":273,
+            "colonia":"LOS OLIVOS",
+            "calle":"ANTONIO NAVARRO ESQUINA MELITON ALBAÑEZ C.P. 23040",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 271,
+        "key": "CM-00043",
+        "name": "SECUNDARIA PRIMERO DE MAYO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":274,
+            "colonia":"PUERTO ADOLFO LOPEZ MATEOS",
+            "calle":"LAZARO CARDENAS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 272,
+        "key": "CB-00061",
+        "name": "CENTRO DE INTEGRACION JUVENIL C.S.L.",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":275,
+            "colonia":"VISTA HERMOSA",
+            "calle":"C. JAIME NUÑO,",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 273,
+        "key": "CB-00062",
+        "name": "SALA DE CAPACITACION CROC",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":276,
+            "colonia":"CONOCIDO",
+            "calle":"C. HIDALGO \/ MAURICIO CASTRO",
+            "codigo_postal":"",
+            "numero": 11,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 274,
+        "key": "CB-00063",
+        "name": "ANTIGUO CORREO DE SANTIAGO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":277,
+            "colonia":"CONOCIDO",
+            "calle":"DOMICILIO CONOCIDO, SANTIAGO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 275,
+        "key": "CM-00044",
+        "name": "CECYTE 10",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":278,
+            "colonia":"4 DE MARZO",
+            "calle":"CONSTITUYENTES DE 1974 \/ PABLO L. MARTINEZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 276,
+        "key": "CB-00064",
+        "name": "SALA DE JUNTAS DELEGACION MIRAFLORES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":279,
+            "colonia":"MIRAFLORES",
+            "calle":"CALLE JOSE COLLINS",
+            "codigo_postal":"",
+            "numero": "06",
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 277,
+        "key": "LP-00135",
+        "name": "ALBERGUE ESTUDIANTIL DE SAN JUAN DE LOS PLANES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":280,
+            "colonia":"CONOCIDO",
+            "calle":"CONOCIDO SAN JUAN DE LOS PLANES C.P. 23230",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 278,
+        "key": "LP-00136",
+        "name": "PARQUE PEDREGAL",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":281,
+            "colonia":"PEDREGAL DEL CORTEZ",
+            "calle":"ANDADOR JOSE MARIA IBARRA \/ AVENIDA DE LOS MAESTROS",
+            "codigo_postal":"",
+            "numero": "SN C.P. 23000",
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 279,
+        "key": "LP-00137",
+        "name": "DIF SAN ANTONIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":282,
+            "colonia":"CONOCIDO SAN ANTONIO B.C.S.",
+            "calle":"CONOCIDO SAN ANTONIO C.P. 23200",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 280,
+        "key": "LP-00138",
+        "name": "CECYT 09",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":283,
+            "colonia":"CONOCIDO",
+            "calle":"CARRETERA LA PAZ LOS PLANES KM 38, EJIDO JUAN DOMINGUEZ COTA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 281,
+        "key": "CB-00065",
+        "name": "FUNDACION SARAHUARO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":284,
+            "colonia":"MEZA COLORADA",
+            "calle":"LA PEÑA M-23 LTE-15",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 282,
+        "key": "CB-00066",
+        "name": "AYUNTAMIENTO DE LOS CABOS",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":285,
+            "colonia":"CENTRO",
+            "calle":"COPA MEXICO",
+            "codigo_postal":"",
+            "numero": 70,
+            "city_id": 20
+        },
+        "center":2
+    },
+    {
+        "id": 283,
+        "key": "CAD-LAP-0001",
+        "name": "Aula Virtual Unidad de Capacitación La Paz",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":286,
+            "colonia":"3 Mayo",
+            "calle":"Virtual",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 284,
+        "key": "LP-00127",
+        "name": "CENTRO FAMILIAR CRISTIANO, LA ROCA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":287,
+            "colonia":"Diana Laura",
+            "calle":"BLVD ORO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 285,
+        "key": "LP-00128",
+        "name": "DIF OLACHEA",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":288,
+            "colonia":"Rinconada el Cardonal",
+            "calle":"FRANCISCO KING RONDERO",
+            "codigo_postal":"",
+            "numero": 1450,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 286,
+        "key": "LP-00139",
+        "name": "RESTAURANTE LOS MAGUEYES",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":289,
+            "colonia":"Zona Central",
+            "calle":"IGNACIO ALLENDE",
+            "codigo_postal":"",
+            "numero": 512,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 287,
+        "key": "LP-00128",
+        "name": "DOM PART CENTENARIO",
+        "telephone_number":"",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":290,
+            "colonia":"Centenario",
+            "calle":"EMILIANO ZAPATA E\/ CALLEJON 3 Y VICENTE GUERRERO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 288,
+        "key": "LP-00140",
+        "name": "CENTRO DE ATENCION MULTIPLE LABORAL #13 (CAM)",
+        "telephone_number": "6121284850",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":291,
+            "colonia":"Emiliano Zapata",
+            "calle":"GRAL. LORENZO NUÑEZ ESQ MELITON ALBAÑEZ",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 19
+        },
+        "center":1
+    },
+    {
+        "id": 289,
+        "key": "CM-00045",
+        "name": "SALON SOCIAL DE LA DELEGACION DE SANTO DOMINGO",
+        "telephone_number": "6121284850",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":292,
+            "colonia":"Cerro Catedral",
+            "calle":"IGNACIO ALLENDE ESQ 5 DE MAYO",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 290,
+        "key": "CM-00046",
+        "name": "INSTITUTO DE LA MUJER MULEGÉ",
+        "telephone_number": "6151133966",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":293,
+            "colonia":"Heroica Mulegé Centro",
+            "calle":"RAFAELA AHUMADA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 291,
+        "key": "SR-00004",
+        "name": "INSTITUTO DE LA MUJER MULEGÉ",
+        "telephone_number": "6151133966",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":294,
+            "colonia":"Ranchería",
+            "calle":"RAFAELA AHUMADA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 292,
+        "key": "CM-00047",
+        "name": "INSTITUTO DE LA MUJER GUERRERO NEGRO",
+        "telephone_number": "6151133966",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":295,
+            "colonia":"Guerrero Negro Centro",
+            "calle":"DOMINGO CARBALLO FELIX",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 18
+        },
+        "center":3
+    },
+    {
+        "id": 293,
+        "key": "CM-00048",
+        "name": "DIF MUNICIPAL DE INSURGENTES",
+        "telephone_number": "6131007789",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":296,
+            "colonia":"Zona Centro",
+            "calle":"ALLENDE E\/5 DE MAYO Y LÓPEZ MATEOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "center":3
+    },
+    {
+        "id": 294,
+        "key": "LT-00026",
+        "name": "OOMPSAPAL",
+        "telephone_number": "6131007789",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":297,
+            "colonia":"Centro",
+            "calle":"PEDRO DE UGARTE",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 295,
+        "key": "LT-00027",
+        "name": "CANIRAC LORETO",
+        "telephone_number": "6131007789",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":298,
+            "colonia":"Centro",
+            "calle":"A. LOPEZ MATEOS",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    },
+    {
+        "id": 296,
+        "key": "LT-00028",
+        "name": "SINDICATO DE BUROCRATAS LORETO",
+        "telephone_number": "6131007789",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":299,
+            "colonia":"Loreto (Loreto)",
+            "calle":"JULIAN DE MAYORGA ESQUINA MIGUEL DE LA BARCA",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 21
+        },
+        "center":3
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "key": "03EIC0001G",
+        "name": "UNIDAD DE CAPACITACIÓN LA PAZ",
+        "short_name": "UC-LAP",
+        "center_type": "Unidad de Capacitacion",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":1,
+            "colonia":"3 de Mayo",
+            "calle":"Av. de los Deportistas y Bordo de Contención",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id":19
+        },
+        "telephone_number": "6121211064",
+        "director_name": "Bárbara Angélica Salgado Cota",
+        "director_position": "Directora de la Unidad de Capacitación La Paz ICATEBCS"
+    },
+    {
+        "id": 2,
+        "key": "03EIC0002F",
+        "name": "ACCIÓN MÓVIL LOS CABOS",
+        "short_name": "AM-CAB",
+        "center_type": "Accion movil",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":2,
+            "colonia":"Cabo San Lucas Centro",
+            "calle":"SN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id":20
+        },
+        "telephone_number": "SN",
+        "director_name": "SN",
+        "director_position": "SN"
+    },
+    {
+        "id": 3,
+        "key": "03EIC0003E",
+        "name": "ACCIÓN MÓVIL COMONDÚ",
+        "short_name": "AM-COM",
+        "center_type": "Accion movil",
+        "cover_path": "cover.jpg",
+        "address":{
+            "id":3,
+            "colonia":"Vargas",
+            "calle":"SN",
+            "codigo_postal":"",
+            "numero": null,
+            "city_id": 17
+        },
+        "telephone_number": "6131325779",
+        "director_name": "SN",
+        "director_position": "Encargada de la Acción Móvil Comondú"
+    }
+]
+
