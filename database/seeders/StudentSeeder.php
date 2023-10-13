@@ -56,7 +56,12 @@ class StudentSeeder extends Seeder
             $capacitando->group_cereso = $value['group_cereso'];
             $capacitando->group_terceraedad = $value['group_terceraedad'];
             $capacitando->group_migrantes = $value['group_migrantes'];
-            $capacitando->job_condition = $value['job_condition'];
+
+            // Select random job condition
+            $possible_conditions = ['Empleado', 'Desempleado','Pensionado', 'Jubilado', 'Iniciativa Privada', 'Estudiante', 'Gobierno', 'Propio Jefe', 'Social'];
+            $rand_i = array_rand($possible_conditions);
+            $capacitando->job_condition = $possible_conditions[$rand_i];
+
             $capacitando->job_company = $value['job_company'];
             $capacitando->years_worked = $value['years_worked'];
             $capacitando->job_position = $value['job_position'];
@@ -74,6 +79,6 @@ class StudentSeeder extends Seeder
             $capacitando->save();
         }
 
-       
+
     }
 }
