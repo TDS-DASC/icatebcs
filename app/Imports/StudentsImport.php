@@ -52,7 +52,7 @@ class StudentsImport implements WithStartRow, ToModel, SkipsOnError, SkipsOnFail
             // validaciones del del store student
             'nombre'=> 'required', //  name
             'apellido_paterno' => 'required', //  first name
-            'apellido_materno' => 'required', //  last name
+            // 'apellido_materno' => 'required', //  last name
             'fecha_de_nacimiento' => 'required', //  birth date
             'genero' => 'required', //  gender
             // '' => 'required', //  birth place
@@ -81,6 +81,7 @@ class StudentsImport implements WithStartRow, ToModel, SkipsOnError, SkipsOnFail
         $address->codigo_postal = $row['codigo_postal'];
         $address->numero = $row['numero'];
 
+        // TODO: what if city doesn't exists?
         // $address->city_id = (integer) City::where('name', $row['ciudad'])->pluck('id')[0];
         try {
             $address->city_id = (integer) City::where('name', $row['ciudad'])->pluck('id')[0];
@@ -103,7 +104,8 @@ class StudentsImport implements WithStartRow, ToModel, SkipsOnError, SkipsOnFail
         $student->first_name = $row['apellido_paterno'];
         $student->last_name = $row['apellido_materno'];
         $student->curp = $row['curp'];
-        $student->birthdate = $row['fecha_de_nacimiento'];
+        // $student->birthdate = $row['fecha_de_nacimiento'];
+        $student->birthdate = '2023-08-08';
         $student->email = $row['correo_electronico'];
         $student->gender = $row['genero'];
         $student->phone_number = $row['celular'];
@@ -160,72 +162,6 @@ class StudentsImport implements WithStartRow, ToModel, SkipsOnError, SkipsOnFail
         $new_student = $this->handle_student($student, $row);
         return $new_student;
 
-        // $address = new Address;
-        // $address->calle  = $row['calle'];
-        // $address->colonia = $row['colonia'];
-        // $address->codigo_postal = $row['codigo_postal'];
-        // $address->numero = $row['numero'];
-        // $address->city_id = (integer) City::where('name', $row['ciudad'])->pluck('id')[0];
-        // $address->save();
-        //
-        // $student =  new Student([
-        //      'no_control' => $row['nocontrol'],
-        //      'center_id' => Center::where('name', $row['centro'])->pluck('id')[0],
-        //      // 'cover' => $row[3],
-        //      'name' => $row['nombre'],
-        //      'first_name' => $row['apellido_paterno'],
-        //      'last_name' => $row['apellido_materno'],
-        //      'curp' => $row['curp'],
-        //      'birthdate' => $row['fecha_de_nacimiento'],
-        //      'gender' => $row['genero'],
-        //      'email' => $row['correo_electronico'],
-        //      'phone_number' => $row['celular'],
-        //      'telephone_number' => $row['telefono'],
-        //      'facebook' => $row['facebook'],
-        //      'twitter' => $row['twitter'],
-        //      'birth_place' => State::where('name', $row['lugar_de_nacimiento'])->pluck('id')[0],
-        //      'academic_level' => $row['nivel_academico'],
-        //      'acquired_grade' => $row['grado_adquirido'],
-        //      'marital_status' => $row['estado_civil'],
-        //      'disability_visual' => ($row['discapacidad_visual'] == 'SI')? '1' : '0',
-        //      'disability_motor' => ($row['discapacidad_motora']=='SI') ? '1' : '0',
-        //      'disability_hearing' => ($row['discapacidad_auditiva'] == 'SI') ? '1' : '0',
-        //      'disability_intellectual' =>  ($row['discapacidad_intelectual'] == 'SI') ? '1' : '0',
-        //      'disability_comunication' => ($row['discapacidad_de_comunicacion'] == 'SI') ? '1' : '0',
-        //      'group_adolescente' => ($row['grupo_adolescente'] == 'SI') ? '1' : '0',
-        //      'group_jefamilia' => ($row['grupo_jefe_de_familia'] == 'SI') ? '1' : '0',
-        //      'group_indigenas' => ($row['grupo_indigena'] == 'SI') ? '1' : '0',
-        //      'group_cereso' => ($row['grupo_cereso'] == 'SI') ? '1' : '0',
-        //      'group_terceraedad' => ($row['grupo_tercera_edad'] == 'SI')? '1' : '0',
-        //      'group_migrantes' => ($row['grupo_migrantes'] == 'SI') ? '1': '0',
-        //      'job_condition' => $row['condicion_laboral'],
-        //      'job_company' => $row['empresa'],
-        //      'years_worked' => $row['antiguedad'],
-        //      'job_position' => $row['cargo'],
-        //      'address_job' => $row['direccion_de_empresa'],
-        //      'job_phone_number' => $row['telefono_de_trabajo'],
-        //  /*  'document_study' => ($row['documento_estudio'] == 'SI') ? '1' : '0',
-        //      'document_birth' => ($row['documento_nacimiento'] == 'SI') ? '1' : '0',
-        //      'document_address' => ($row['documento_domicilio'] == 'SI') ? '1' : '0',
-        //      'document_curp' => ($row['documento_curp'] == 'SI') ? '1' : '0',
-        //      'document_photos' => ($row['documento_fotos'] == 'SI') ? '1' : '0',
-        //      'document_official_ine' => ($row['documento_ine'] == 'SI') ? '1' : '0',
-        //      'document_foreign' => ($row['documento_extranjero'] == 'SI') ? '1' : '0',
-        //      */
-        //      'document_official_ine' => $row['documento_ine'] == 'SI',
-        //      'document_passport' => $row['documento_pasaporte'] == 'SI',
-        //      'document_curp' => $row['documento_curp'] == 'SI',
-        //      'document_fmm2_fmm3' => $row['documento_fmm2_o_fmm3'] == 'SI',
-        //      'document_responsive_card' => $row['documento_carta_responsiva'] == 'SI',
-        //      'address_id' => $address->id
-        //  ]);
-
-        // if($student){
-
-        //     $this->new_records++;
-        //     return $student;
-        // }
-        // Address::latest()->delete();
     }
 
     public function customValidationMessages(): array {
