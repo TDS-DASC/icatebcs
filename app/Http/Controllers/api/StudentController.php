@@ -38,10 +38,15 @@ class StudentController extends Controller
     }
 
     public function excel_import(Request $request){
+        error_log('hey');
         $import = new StudentsImport();
-        $file = $request->file('capacitandos')->store('imports');
+        // $file = $request->file('capacitandos')->store('imports');
         // $file = Storage::path('capacitandos (10).xlsx');
-        $import->import($file); 
+        // $file = Storage::path(storage_path('app/capacitandos_10.xlsx'));
+        // error_log($file);
+        // $import->import($file); 
+        error_log('bye');
+        return;
         error_log(json_encode($import->errors()));
 
 
