@@ -48,7 +48,6 @@ class StudentController extends Controller
         $info->put('errors', $import->failures());
         $info->put('new_records', $import->new_records);
 
-    
         if($import->failures()->isEmpty()){
             return response()->json([
                 'message' => "Registros insertados correctamente",
@@ -64,8 +63,6 @@ class StudentController extends Controller
             'data' => $info,
             'errors' => null
         ], 200);
-
-
     }
 
     public function reactivate(Request $request){
