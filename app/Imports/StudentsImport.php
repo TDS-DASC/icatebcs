@@ -20,8 +20,10 @@ use Maatwebsite\Excel\Concerns\WithCalculatedFormulas;
 use Maatwebsite\Excel\Concerns\WithValidation;
 use Maatwebsite\Excel\Concerns\WithBatchInserts;
 use Maatwebsite\Excel\Concerns\WithChunkReading;
+use Maatwebsite\Excel\Concerns\WithUpserts;
+
 class StudentsImport implements 
-ToModel, WithStartRow, WithHeadingRow, WithValidation, 
+ToModel, WithStartRow, WithHeadingRow, WithValidation, WithUpserts,
 WithCalculatedFormulas, WithBatchInserts, WithChunkReading,
 SkipsEmptyRows, SkipsOnError, SkipsOnFailure
 {
@@ -54,6 +56,11 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
         return 1000;
     }
 
+    public function uniqueBy()
+    {
+        return 'no_control';
+    }
+
     public function rules(): array
     {
         return [
@@ -78,7 +85,6 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
 
     public function customValidationMessages(): array
     {
-        // Get the name of all centers
         $centers = Center::all()->pluck('name')->toArray();
 
         return [
@@ -89,16 +95,16 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
             'fecha_de_nacimiento.date_format' => 'La :attribute proporcionada no cumple con el formato necesario (AAAA-MM-DD). Valor ingresado: :input',
             'lugar_de_nacimiento.exists' => ':attribute no válido. Estado ingresado: :input. Recuerda incluir acentos.',
             'genero.required' => ':attribute es un valor requerido.',
-            'genero.in' => 'El :attribute no es válido. Valores esperados: Hombre, Mujer. Valor ingresado: :input.',
+            'genero.in' => 'El :attribute no es válido. Valores esperados: Hombre, Mujer, Otro. Valor ingresado: :input.',
             'nivel_academico.required' => ':attribute es un valor requerido.',
             'estado_civil.required' => ':attribute es un valor requerido.',
-            'estado_civil.in' => 'El :attribute no es válido. Valores esperados: SOLTERO, CASADO. Valor ingresado: :input.',
+            'estado_civil.in' => 'El :attribute no es válido. Valores esperados: Soltero, Casado, Viudo, Union libre, Divorciado. Valor ingresado: :input.',
             'condicion_laboral.required' => ':attribute es un valor requerido.',
+            'condicion_laboral.in' => 'El :attribute no es válido. Valores esperados: Empleado, Desempleado, Pensionado, Jubilado, Iniciativa Privada, Estudiante, Gobierno, Propio Jefe, Social. Valor ingresado: :input.',
             'calle.required' => ':attribute es un valor requerido.',
             'colonia.required' => ':attribute es un valor requerido.',
             'codigo_postal.required' => ':attribute es un valor requerido.',
             'nocontrol.unique' => ':attribute debe ser un valo unico.',
-            // Add expected center values to error message
             'centro.exists' => 'Nombre del :attribute no coincide con nuestros registros. Valores esperados: ' . implode(', ', $centers) . '. Valor ingresado: :input.',
             'curp.size' => 'El :attribute no es valido. Debe contener 18 carácteres. Valor ingresado: :input.',
         ];
@@ -125,7 +131,7 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
         ];
     }
 
-    public function handle_student($student, array $row)
+    public function model(array $row)
     {
         // TODO: check if address already exists and use it
         $address = new Address;
@@ -144,16 +150,14 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
 
         $address->save();
 
-        if (!$student) $student = new Student;
+        $student = new Student;
 
         $student->birth_place = State::where('name', $row['lugar_de_nacimiento'])->pluck('id')[0];
         try {
             $student->birth_place = State::where('name', $row['lugar_de_nacimiento'])->pluck('id')[0];
         } catch (\Exception $e) {
-            //do something when exception is thrown
             $student->birth_place = null;
         } catch (\Throwable $e) {
-            //do something when Throwable is thrown
             $student->birth_place = null;
         }
 
@@ -197,17 +201,8 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
         $student->disability_visual = ($row['discapacidad_visual'] == 'SI') ? '1' : '0';
         $student->disability_motor = ($row['discapacidad_motora'] == 'SI') ? '1' : '0';
 
-        $student->save();
+        $this->new_records++;
 
         return $student;
-    }
-
-    public function model(array $row)
-    {
-        // Create student if not exists, otherwise update it
-        $this->new_records++;
-        $student = Student::where('no_control', $row['nocontrol'])->first();
-        $new_student = $this->handle_student($student, $row);
-        return $new_student;
     }
 }
