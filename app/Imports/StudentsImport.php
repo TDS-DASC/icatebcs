@@ -165,6 +165,7 @@ SkipsEmptyRows, SkipsOnError, SkipsOnFailure
         $student->document_fmm2_fmm3 = $row['documento_fmm2_o_fmm3'] == 'SI';
         $student->document_responsive_card = $row['documento_carta_responsiva'] == 'SI';
 
+        $student->no_control = $row['nocontrol'];
         $student->name = $row['nombre'];
         $student->first_name = $row['apellido_paterno'];
         $student->last_name = $row['apellido_materno'];
