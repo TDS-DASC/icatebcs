@@ -31,7 +31,7 @@
       "id": "5",
       "country_id": "142",
       "key": "05",
-      "name": "Coahuila de Zaragoza",
+      "name": "Coahuila",
       "shortname": "COA"
     },
     {
@@ -59,8 +59,8 @@
       "id": "9",
       "country_id": "142",
       "key": "09",
-      "name": "Cuidad de México",
-      "shortname": "CMX"
+      "name": "Ciudad de México",
+      "shortname": "CDMX"
     },
     {
       "id": "10",
@@ -108,7 +108,7 @@
       "id": "16",
       "country_id": "142",
       "key": "16",
-      "name": "Michoacán de Ocampo",
+      "name": "Michoacán",
       "shortname": "MIC"
     },
     {
@@ -206,7 +206,7 @@
       "id": "30",
       "country_id": "142",
       "key": "30",
-      "name": "Veracruz de Ignacio de la Llave",
+      "name": "Veracruz",
       "shortname": "VER"
     },
     {
@@ -222,12 +222,5 @@
       "key": "32",
       "name": "Zacatecas",
       "shortname": "ZAC"
-    },
-    {
-      "id": "33",
-      "country_id": "142",
-      "key": "33",
-      "name": "Distrito Federal",
-      "shortname": "DF"
     }
 ]
