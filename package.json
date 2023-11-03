@@ -21,6 +21,7 @@
     "dependencies": {
         "@vitejs/plugin-vue": "^3.0.3",
         "sweetalert": "^2.1.2",
+        "ui-avatar-svg": "^1.0.0",
         "vue": "^3.2.36",
         "vue-loader": "^17.0.0"
     }

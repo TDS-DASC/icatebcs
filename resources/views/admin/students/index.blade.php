@@ -90,7 +90,7 @@
                                 <div class="flex-grow-1">
                                     <p class="text-uppercase fw-medium text-white-50 mb-0">Acción móvil Los Cabos</p>
                                 </div>
-                                
+
                             </div>
                             <div class="d-flex align-items-end justify-content-between mt-4">
                                 <div>
@@ -127,7 +127,7 @@
                         </div><!-- end card body -->
                     </div><!-- end card -->
                 </div>
-     
+
                 {{-- FILTERS --}}
                 <div class="card">
                     <div class="card-header pt-4 pb-0 border-0">
@@ -214,7 +214,7 @@
                                 <!--end col-->
                                 <div class="col-xl-4 col-sm-4">
                                     <div>
-                                        <button type="button" class="btn btn-secondary w-100" @click="submitFilters()"> 
+                                        <button type="button" class="btn btn-secondary w-100" @click="submitFilters()">
                                             <i class="ri-equalizer-fill me-1 align-bottom"></i>Filtrar
                                         </button>
                                     </div>
@@ -222,7 +222,7 @@
                                 <!--end col-->
                                 <div class="col-xl-4 col-sm-4">
                                     <div>
-                                        <button type="button" class="btn btn-warning w-100" @click="restartFilters()"> 
+                                        <button type="button" class="btn btn-warning w-100" @click="restartFilters()">
                                             <i class="ri-refresh-line me-1 align-bottom"></i>Reiniciar filtros
                                         </button>
                                     </div>
@@ -230,7 +230,7 @@
                                 <!--end col-->
                                 <div class="col-xl- col-sm-4">
                                     <div>
-                                        <button type="button" class="btn btn-info w-100" @click="showAllData()"> 
+                                        <button type="button" class="btn btn-info w-100" @click="showAllData()">
                                             <i class="ri-file-text-fill  me-1 align-bottom"></i>Mostrar todo
                                         </button>
                                     </div>
@@ -239,31 +239,31 @@
                             </div>
                             <!--end row-->
                         </form>
-                        
+
                     </div>
                 </div>
 
                 {{-- RESPONSE IMPORT --}}
                 <div v-if="respImportCode==2" class="alert alert-success alert-border-left alert-dismissible fade shadow show mb-xl-2" role="alert">
-                    <h1 class="fs-15 fw-bold text-success text-center mb-4">@{{ respImportMessage }}</h1> 
+                    <h1 class="fs-15 fw-bold text-success text-center mb-4">@{{ respImportMessage }}</h1>
                     <div class="row">
                         <div class="col-sm-6">
                             <h2 class="fs-14 fw-normal text-dark text-center mb-3"><span class="fw-bolder">Registros exitosos nuevos:</span> @{{ respImportRecords }}</h2>
                         </div>
                         <div class="col-sm-6">
-                            <h2 class="fs-14 fw-normal text-dark text-center mb-3"><span class="fw-bolder">Cantidad de errores:</span> @{{ respImportErrors.length }}</h2>  
+                            <h2 class="fs-14 fw-normal text-dark text-center mb-3"><span class="fw-bolder">Cantidad de errores:</span> @{{ respImportErrors.length }}</h2>
                         </div>
                     </div>
                     <button type="button" class="btn-close" @click="resetImportCode()" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
                 <div v-if="respImportCode==-2" class="alert alert-danger alert-border-left alert-dismissible fade shadow show mb-xl-2" role="alert">
-                    <h1 class="fs-15 fw-bold text-danger text-center mb-4">@{{ respImportMessage }}</h1> 
+                    <h1 class="fs-15 fw-bold text-danger text-center mb-4">@{{ respImportMessage }}</h1>
                     <div class="row">
                         <div class="col-sm-6">
                             <h2 class="fs-14 fw-normal text-dark text-center mb-3"><span class="fw-bolder">Registros exitosos nuevos:</span> @{{ respImportRecords }}</h2>
                         </div>
                         <div class="col-sm-6">
-                            <h2 class="fs-14 fw-normal text-dark text-center mb-3"><span class="fw-bolder">Cantidad de errores:</span> @{{ respImportErrors.length }}</h2>  
+                            <h2 class="fs-14 fw-normal text-dark text-center mb-3"><span class="fw-bolder">Cantidad de errores:</span> @{{ respImportErrors.length }}</h2>
                         </div>
                     </div>
                     <table class="table table-danger">
@@ -298,11 +298,11 @@
                                     </div>
                                     <div class="col-sm-7 d-flex justify-content-end">
                                         @can('Agregar estudiantes')
-                                            <a type="button" href="{{ url('/student/create') }}" class="btn btn-success"><i class="ri-add-line align-bottom me-1"></i> Agregar</a> 
+                                            <a type="button" href="{{ url('/student/create') }}" class="btn btn-success"><i class="ri-add-line align-bottom me-1"></i> Agregar</a>
                                         @endcan
-                                        <a type="button" @click="resetFormExcel()" data-bs-toggle="modal" data-bs-target="#modalExcel" class="btn btn-primary ms-2"><i class="bx bx-import me-1"></i> Importar Excel</a> 
-                                        <a type="button" @click="downloadExcel()" class="btn btn-primary ms-2"><i class="ri-download-fill align-bottom me-1"></i> Descargar Excel</a> 
-                                    </div>   
+                                        <a type="button" @click="resetFormExcel()" data-bs-toggle="modal" data-bs-target="#modalExcel" class="btn btn-primary ms-2"><i class="bx bx-import me-1"></i> Importar Excel</a>
+                                        <a type="button" @click="downloadExcel()" class="btn btn-primary ms-2"><i class="ri-download-fill align-bottom me-1"></i> Descargar Excel</a>
+                                    </div>
                                 {{-- </div> --}}
                             </div>
 
@@ -324,9 +324,10 @@
                                     <tbody class="list form-check-all">
                                         <tr v-for="student in students">
                                             <td class="col1"><div class="avatar d-flex justify-content-center">
-                                                <img class="avatar-sm rounded-circle shadow"
-                                                        :src="student.avatar_path !== 'cover.jpg' ? assetAvatar(student.avatar_path) : 'https://ui-avatars.com/api/?name='+student.name"
-                                                        :alt="student.name">
+{{--                                                <img class="avatar-sm rounded-circle shadow"--}}
+{{--                                                        :src="student.avatar_path !== 'cover.jpg' ? assetAvatar(student.avatar_path) : 'https://ui-avatars.com/api/?name='+student.name"--}}
+{{--                                                        :alt="student.name">--}}
+                                                    <div v-html="this.generateAvatar(student.name, student.first_name)"></div>
                                                 </div>
                                             </td>
                                             <td class="no_control">@{{ student.no_control }}</td>
@@ -413,11 +414,11 @@
                                 </div><!--end col-->
                             </div>
                         </form>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
-        <!--end modal-->  
+        <!--end modal-->
 
         {{-- MODAL INSCRIBIR --}}
         <div class="modal fade" id="modalInscribir" tabindex="-1" role="dialog" aria-labelledby="modalInscribirLabel" aria-hidden="true">
@@ -455,11 +456,11 @@
                                 </div>
                             </div>
                         </form>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </div>
-        <!--end modal--> 
+        <!--end modal-->
 
     </div>
     <!-- End Page-content -->
@@ -467,9 +468,10 @@
     <x-slot name="scripts">
         <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
         <script rel="stylesheet" type="text/javascript" src="{{ asset('libs/dataTables/datatables.min.js') }}"></script>
-        <script>
-
+        @vite(['resources/js/app.js'])
+        <script type="module">
             const { createApp } = Vue
+            const UIAvatarSvg = new window.UIAvatarSvg();
 
             createApp({
                 data() {
@@ -492,6 +494,14 @@
                     }
                 },
                 methods:{
+                    generateAvatar(name, lastname) {
+                        return UIAvatarSvg
+                            .text(name[0] + lastname[0])
+                            .size(54)
+                            .bgColor('#b3b3b3')
+                            .textColor('#0e0e0e')
+                            .generate();
+                    },
                     detailStudent(){
                         Swal.fire({
                             title: "Sección en desarrollo.",
@@ -537,7 +547,7 @@
                     },
                     submitFilters() {
                         document.getElementById("formFilters").action = this.url;
-                        document.getElementById("formFilters").submit(); 
+                        document.getElementById("formFilters").submit();
                     },
                     restartFilters() {
                         document.getElementById('academic_level').selectedIndex = 0;
@@ -552,7 +562,7 @@
                         document.getElementById('center_id').selectedIndex = 0;
                         document.getElementById('city').selectedIndex = 0;
                         document.getElementById("formFilters").action = this.url;
-                        document.getElementById("formFilters").submit(); 
+                        document.getElementById("formFilters").submit();
                     },
                     downloadExcel() {
                         document.getElementById("formFilters").action = this.urlExcel;
@@ -560,7 +570,7 @@
                     },
                     resetFormExcel() {
                         document.getElementById("formExcel").reset();
-                        $('.file-input').val(''); 
+                        $('.file-input').val('');
                         $('.file-msg').text('o arrastra y suelta aqui el archivo');
                     },
                     async importExcel() {
@@ -624,7 +634,7 @@
                         var fileExtension = ['xml', 'xlsx'];
                         if ($.inArray($(this).val().split('.').pop().toLowerCase(), fileExtension) == -1) {
                             alert("Formato de archivos permitidos: ."+fileExtension.join(', .'));
-                            $('.file-input').val(''); 
+                            $('.file-input').val('');
                             $('.file-msg').text('Formato inválido, arrastra otro archivo.');
                         }
                     });
