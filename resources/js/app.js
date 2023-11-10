@@ -1,5 +1,5 @@
-// import './bootstrap';
-//
+import './bootstrap';
+
 // import Alpine from 'alpinejs';
 // import { createApp } from 'vue';
 // import App from './layouts/App.vue';
@@ -8,6 +8,3 @@
 // window.Alpine = Alpine;
 //
 // Alpine.start();
-
-import UIAvatarSvg from "ui-avatar-svg";
-window.UIAvatarSvg = UIAvatarSvg;

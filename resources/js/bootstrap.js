@@ -33,3 +33,19 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? 'https') === 'https',
 //     enabledTransports: ['ws', 'wss'],
 // });
+
+/**
+ * We're going to use Vue for the frontend.
+ */
+// import * as Vue from 'vue';
+//
+// window.Vue = Vue;
+
+/**
+ * We'll make use of the ui-avatar-svg package to locally (client side) generate all the required
+ * profile images, instead of querying a third party api and making a bunch of requests.
+ */
+import UIAvatarSvg from "ui-avatar-svg";
+
+window.UIAvatarSvg = UIAvatarSvg;
+

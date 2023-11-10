@@ -31,6 +31,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     Route::get('students-reactivate', [StudentController::class, 'reactivate'])->name('student.reactivate');
     Route::post('students-group', [StudentController::class, 'change_group_status'])->name('students.change.group.status');
     Route::get('students-constancy', [StudentController::class,'generate_constancy'])->name('students.constancy');
+    Route::get('students', [StudentController::class, 'index']); // TODO: This route is exposed for the moment
 
     // rutas instructores
     Route::get('instructors-excel', [InstructorController::class, 'generate_excel'])->name('instructors.excel');
