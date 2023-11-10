@@ -11,8 +11,15 @@ use Illuminate\Http\Request;
 use App\Models\Student;
 use Maatwebsite\Excel\Facades\Excel;
 use PDF;
+use App\Http\Filters\StudentFilter;
+
 class StudentController extends Controller
 {
+    public function index(StudentFilter $filter)
+    {
+        return Student::filter($filter)->with('center', 'address')->paginate(8);
+    }
+
        public function generate_excel(Request $request){
         $students = Student::with('center:id,name', 'address')
         ->when($request->has('center_id'), function($q) use($request){
@@ -42,7 +49,7 @@ class StudentController extends Controller
         $file = $request->file('capacitandos')->store('imports');
         // $file = Storage::path('capacitandos (10).xlsx');
         // $file = Storage::path(storage_path('app/capacitandos_10.xlsx'));
-        $import->import($file); 
+        $import->import($file);
 
         $info = collect();
         $info->put('errors', $import->failures());
@@ -87,7 +94,7 @@ class StudentController extends Controller
     public function change_group_status(Request $request){
         $group = Group::find($request->group_id);
         if($group->students->contains('id', $request->student_id)){
-            
+
             $group->students()->sync([$request->student_id => ['status' => $request->status]], false);
             return response()->json([
                 'message' => "Registro editado correctamente",

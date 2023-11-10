@@ -5,11 +5,14 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
+use App\Concerns\Filterable;
 
 class Student extends Model
 {
     use HasFactory;
     use SoftDeletes;
+    use Filterable;
+
     protected $guarded = [
         'colonia',
         'codigo_postal',
@@ -21,7 +24,7 @@ class Student extends Model
     public function address(){
         return $this->belongsTo(Address::class);
     }
-    
+
     public function center(){
         return $this->belongsTo(Center::class);
     }

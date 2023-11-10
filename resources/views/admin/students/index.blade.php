@@ -1,12 +1,9 @@
-<x-guest-layout>
-    <x-slot name="head">
+<x-improved-guest>
+    <x-slot:head>
         <link rel="stylesheet" type="text/css" href="{{ asset('libs/dataTables/datatables.min.css') }}"/>
     </x-slot>
-
-    <div class="page-content" v-cloak>
+    <div class="page-content" v-cloak v-if="students">
         <div class="container-fluid">
-
-            <!-- start page title -->
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
@@ -19,8 +16,6 @@
                     </div>
                 </div>
             </div>
-            <!-- end page title -->
-
             <div class="row">
                 <div class="col-lg-12">
                     @if(session('error'))
@@ -36,10 +31,8 @@
                         </div>
                     @endif
                 </div>
-
                 {{-- WIDGETS --}}
                 <div class="col-xl-3 col-sm-6">
-                    <!-- card -->
                     <div class="card card-animate bg-primary">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
@@ -57,11 +50,10 @@
                                     </span>
                                 </div>
                             </div>
-                        </div><!-- end card body -->
-                    </div><!-- end card -->
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xl-3 col-sm-6">
-                    <!-- card -->
                     <div class="card card-animate" style="background-color: #4c66ba;">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
@@ -79,11 +71,10 @@
                                     </span>
                                 </div>
                             </div>
-                        </div><!-- end card body -->
-                    </div><!-- end card -->
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xl-3 col-sm-6">
-                    <!-- card -->
                     <div class="card card-animate" style="background-color: #4c66ba;">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
@@ -102,11 +93,10 @@
                                     </span>
                                 </div>
                             </div>
-                        </div><!-- end card body -->
-                    </div><!-- end card -->
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xl-3 col-sm-6">
-                    <!-- card -->
                     <div class="card card-animate" style="background-color: #4c66ba;">
                         <div class="card-body">
                             <div class="d-flex align-items-center">
@@ -124,10 +114,9 @@
                                     </span>
                                 </div>
                             </div>
-                        </div><!-- end card body -->
-                    </div><!-- end card -->
+                        </div>
+                    </div>
                 </div>
-
                 {{-- FILTERS --}}
                 <div class="card">
                     <div class="card-header pt-4 pb-0 border-0">
@@ -138,15 +127,7 @@
                             <div class="row g-3">
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="form-group">
-                                        <select class="form-select" id="academic_level" name="academic_level" v-if="(filters.academic_level!==undefined)" :value="filters.academic_level">
-                                            <option disabled selected value="default">Seleccionar grado académico</option>
-                                            <option value="Primaria">Primaria</option>
-                                            <option value="Secundaria">Secundaria</option>
-                                            <option value="Preparatoria">Preparatoria</option>
-                                            <option value="Profesional">Profesional</option>
-                                            <option value="Maestria o Doctorado">Maestria o Doctorado</option>
-                                        </select>
-                                        <select v-else class="form-select" id="academic_level" name="academic_level" value="default">
+                                        <select class="form-select" id="academic_level" name="academic_level" v-model="filters.academic_level">
                                             <option disabled selected value="default">Seleccionar grado académico</option>
                                             <option value="Primaria">Primaria</option>
                                             <option value="Secundaria">Secundaria</option>
@@ -156,22 +137,9 @@
                                         </select>
                                     </div>
                                 </div>
-                                <!--end col-->
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="form-group">
-                                        <select class="form-select" id="job_condition" name="job_condition" v-if="(filters.job_condition!==undefined)" :value="filters.job_condition">
-                                            <option disabled selected value="default" selected>Seleccionar condición laboral</option>
-                                            <option value="Empleado">Empleado</option>
-                                            <option value="Desempleado">Desempleado</option>
-                                            <option value="Pensionado">Pensionado</option>
-                                            <option value="Jubilado">Jubilado</option>
-                                            <option value="Iniciativa Privada">Iniciativa Privada</option>
-                                            <option value="Estudiante">Estudiante</option>
-                                            <option value="Gobierno">Gobierno</option>
-                                            <option value="Propio Jefe">Propio Jefe</option>
-                                            <option value="Social">Social</option>
-                                        </select>
-                                        <select v-else class="form-select" id="job_condition" name="job_condition" value="default">
+                                        <select class="form-select" id="job_condition" name="job_condition" v-model="filters.job_condition">
                                             <option disabled selected value="default" selected>Seleccionar condición laboral</option>
                                             <option value="Empleado">Empleado</option>
                                             <option value="Desempleado">Desempleado</option>
@@ -185,33 +153,22 @@
                                         </select>
                                     </div>
                                 </div>
-                                <!--end col-->
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="form-group">
-                                        <select class="form-select" id="center_id" name="center_id" v-if="(filters.center_id!==undefined)" :value="filters.center_id">
-                                            <option disabled selected value="default">Seleccionar centro</option>
-                                            <option v-for="center in centers" :value="center.id">@{{center.name}}</option>
-                                        </select>
-                                        <select v-else class="form-select" id="center_id" name="center_id" value="default">
+                                        <select class="form-select" id="center_id" name="center_id" v-model="filters.center">
                                             <option disabled selected value="default">Seleccionar centro</option>
                                             <option v-for="center in centers" :value="center.id">@{{center.name}}</option>
                                         </select>
                                     </div>
                                 </div>
-                                <!--end col-->
                                 <div class="col-xl-3 col-sm-6">
                                     <div class="form-group">
-                                        <select class="form-select" id="city" name="city" v-if="(filters.city!==undefined)" :value="filters.city">
-                                            <option disabled selected value="default" selected>Seleccionar ciudad</option>
-                                            <option v-for="city in cities" :value="city.id">@{{city.name}}</option>
-                                        </select>
-                                        <select v-else class="form-select" id="city" name="city" value="default">
+                                        <select class="form-select" id="city" name="city" v-model="filters.city">
                                             <option disabled selected value="default" selected>Seleccionar ciudad</option>
                                             <option v-for="city in cities" :value="city.id">@{{city.name}}</option>
                                         </select>
                                     </div>
                                 </div>
-                                <!--end col-->
                                 <div class="col-xl-4 col-sm-4">
                                     <div>
                                         <button type="button" class="btn btn-secondary w-100" @click="submitFilters()">
@@ -219,7 +176,6 @@
                                         </button>
                                     </div>
                                 </div>
-                                <!--end col-->
                                 <div class="col-xl-4 col-sm-4">
                                     <div>
                                         <button type="button" class="btn btn-warning w-100" @click="restartFilters()">
@@ -227,7 +183,6 @@
                                         </button>
                                     </div>
                                 </div>
-                                <!--end col-->
                                 <div class="col-xl- col-sm-4">
                                     <div>
                                         <button type="button" class="btn btn-info w-100" @click="showAllData()">
@@ -235,14 +190,10 @@
                                         </button>
                                     </div>
                                 </div>
-                                <!--end col-->
                             </div>
-                            <!--end row-->
                         </form>
-
                     </div>
                 </div>
-
                 {{-- RESPONSE IMPORT --}}
                 <div v-if="respImportCode==2" class="alert alert-success alert-border-left alert-dismissible fade shadow show mb-xl-2" role="alert">
                     <h1 class="fs-15 fw-bold text-success text-center mb-4">@{{ respImportMessage }}</h1>
@@ -289,7 +240,6 @@
                     <div class="card-body">
                         <div id="studentList">
                             <div class="row g-4 mb-3">
-                                {{-- <div class="d-flex justify-content-sm-between"> --}}
                                     <div class="col-sm-5">
                                         <div class="search-box">
                                             <input type="text" class="form-control search" placeholder="Realizar una búsqueda">
@@ -303,9 +253,7 @@
                                         <a type="button" @click="resetFormExcel()" data-bs-toggle="modal" data-bs-target="#modalExcel" class="btn btn-primary ms-2"><i class="bx bx-import me-1"></i> Importar Excel</a>
                                         <a type="button" @click="downloadExcel()" class="btn btn-primary ms-2"><i class="ri-download-fill align-bottom me-1"></i> Descargar Excel</a>
                                     </div>
-                                {{-- </div> --}}
                             </div>
-
                             <div class="table-responsive table-card mt-3 mb-1">
                                 <table class="table align-middle table-nowrap" id="studentTable">
                                     <thead class="table-light">
@@ -322,11 +270,9 @@
                                         </tr>
                                     </thead>
                                     <tbody class="list form-check-all">
-                                        <tr v-for="student in students">
-                                            <td class="col1"><div class="avatar d-flex justify-content-center">
-{{--                                                <img class="avatar-sm rounded-circle shadow"--}}
-{{--                                                        :src="student.avatar_path !== 'cover.jpg' ? assetAvatar(student.avatar_path) : 'https://ui-avatars.com/api/?name='+student.name"--}}
-{{--                                                        :alt="student.name">--}}
+                                        <tr v-for="student in students.data">
+                                            <td class="col1">
+                                                <div class="avatar d-flex justify-content-center">
                                                     <div v-html="this.generateAvatar(student.name, student.first_name)"></div>
                                                 </div>
                                             </td>
@@ -366,27 +312,36 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="d-flex justify-content-end">
                                 <div class="pagination-wrap hstack gap-2">
-                                    <a class="page-item pagination-prev disabled">
-                                        Anterior
-                                    </a>
-                                    <ul class="pagination listjs-pagination mb-0"></ul>
-                                    <a class="page-item pagination-next">
-                                        Siguiente
-                                    </a>
+                                    <template v-if="students.prev_page_url">
+                                        <a class="page-item pagination-prev" @click="loadPrevStudents">
+                                            Anterior
+                                        </a>
+                                    </template>
+                                    <ul class="pagination listjs-pagination mb-0">
+                                        <li v-for="link in students.links.filter((link) => link.label < students.current_page)">
+                                            <span class="page" @click="loadStudents(link.url)">@{{ link.label}}</span>
+                                        </li>
+                                        <li class="active">
+                                            <span class="page">@{{ students.current_page }}</span>
+                                        </li>
+                                        <li v-for="link in students.links.filter((link) => link.label > students.current_page)">
+                                            <span class="page" @click="loadStudents(link.url)">@{{ link.label}}</span>
+                                        </li>
+                                    </ul>
+                                    <template v-if="students.next_page_url">
+                                        <a class="page-item pagination-next" @click="loadNextStudents">
+                                            Siguiente
+                                        </a>
+                                    </template>
                                 </div>
                             </div>
                         </div>
-                    </div><!-- end card -->
+                    </div>
                 </div>
-                <!-- end col -->
             </div>
-            <!-- end row content -->
         </div>
-        <!-- container-fluid -->
-
         {{-- MODAL IMPORT EXCEL --}}
         <div class="modal fade" id="modalExcel" tabindex="-1" role="dialog" aria-labelledby="modalExcelLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -405,21 +360,19 @@
                                         <span class="file-msg">o arrastra y suelta aqui el archivo</span>
                                         <input class="file-input" type="file" id="capacitandos" name="capacitandos" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" required>
                                     </div>
-                                </div><!--end col-->
+                                </div>
                                 <div class="col-lg-12">
                                     <div class="gap-2">
                                         <button type="button" @click="importExcel()" class="btn btn-success me-3">Aceptar</button>
                                         <button type="button" class="btn btn-light" id="btnCloseImport" data-bs-dismiss="modal">Cerrar</button>
                                     </div>
-                                </div><!--end col-->
+                                </div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-        <!--end modal-->
-
         {{-- MODAL INSCRIBIR --}}
         <div class="modal fade" id="modalInscribir" tabindex="-1" role="dialog" aria-labelledby="modalInscribirLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -460,29 +413,22 @@
                 </div>
             </div>
         </div>
-        <!--end modal-->
-
     </div>
-    <!-- End Page-content -->
-
-    <x-slot name="scripts">
+    <x-slot:scripts>
         <script src="{{ asset('js/jquery-3.1.1.min.js') }}"></script>
-        <script rel="stylesheet" type="text/javascript" src="{{ asset('libs/dataTables/datatables.min.js') }}"></script>
-        @vite(['resources/js/app.js'])
         <script type="module">
-            const { createApp } = Vue
-            const UIAvatarSvg = new window.UIAvatarSvg();
+            const { createApp } = window.Vue
+            const UIAvatarSvg = new window.UIAvatarSvg()
 
             createApp({
                 data() {
                     return {
-                        students: @json($students),
+                        students: null,
                         widgets: @json($widgets),
                         cities: @json($cities),
                         groups: @json($groups),
                         centers: @json($centers),
-                        filters: @json($filters),
-                        arrayStudents: [],
+                        filters: { academic_level: 'default', job_condition: 'default', center: 'default', city: 'default' },
                         url:'{{ url("student") }}',
                         urlExcel:'{{ route("students.excel") }}',
                         respImport: [],
@@ -494,11 +440,26 @@
                     }
                 },
                 methods:{
+                    loadNextStudents() {
+                        axios.get(this.students.next_page_url)
+                            .then(res => this.students = res.data)
+                            .catch(err => console.error(err));
+                    },
+                    loadPrevStudents() {
+                        axios.get(this.students.prev_page_url)
+                            .then(res => this.students = res.data)
+                            .catch(err => console.error(err));
+                    },
+                    loadStudents(url) {
+                        axios.get(url)
+                            .then(res => this.students = res.data)
+                            .catch(err => console.error(err));
+                    },
                     generateAvatar(name, lastname) {
                         return UIAvatarSvg
                             .text(name[0] + lastname[0])
                             .size(54)
-                            .bgColor('#b3b3b3')
+                            .bgColor('#dcdbdb')
                             .textColor('#0e0e0e')
                             .generate();
                     },
@@ -514,6 +475,24 @@
                     editStudent(no_control,id){
                         document.getElementById(no_control).href = `{{ url('student/${id}/edit') }}`;
                         document.getElementById(no_control).click();
+                    },
+                    submitFilters() {
+                        axios.get('http://0.0.0.0/api/students?', {
+                            params: {
+                                academic_level: this.filters.academic_level === 'default' ? null : this.filters.academic_level,
+                                job_condition: this.filters.job_condition === 'default' ? null : this.filters.job_condition,
+                                center: this.filters.center === 'default' ? null : this.filters.center,
+                                city: this.filters.city === 'default' ? null : this.filters.city
+                            }})
+                            .then(res => this.students = res.data)
+                            .catch(err => console.error('error: ' + err));
+                    },
+                    restartFilters() {
+                        document.getElementById('academic_level').selectedIndex = 0;
+                        document.getElementById('job_condition').selectedIndex = 0;
+                        document.getElementById('center_id').selectedIndex = 0;
+                        document.getElementById("formFilters").action = this.url;
+                        document.getElementById('city').selectedIndex = 0;
                     },
                     async destroy(id){
                         Swal.fire({
@@ -544,17 +523,6 @@
                     assetAvatar(urlImg) {
                         const asset = "{{ asset('storage/student/covers') }}"
                         return asset + "/" + urlImg;
-                    },
-                    submitFilters() {
-                        document.getElementById("formFilters").action = this.url;
-                        document.getElementById("formFilters").submit();
-                    },
-                    restartFilters() {
-                        document.getElementById('academic_level').selectedIndex = 0;
-                        document.getElementById('job_condition').selectedIndex = 0;
-                        document.getElementById('center_id').selectedIndex = 0;
-                        document.getElementById("formFilters").action = this.url;
-                        document.getElementById('city').selectedIndex = 0;
                     },
                     showAllData() {
                         document.getElementById('academic_level').selectedIndex = 0;
@@ -638,10 +606,12 @@
                             $('.file-msg').text('Formato inválido, arrastra otro archivo.');
                         }
                     });
+
+                    axios.get('http://0.0.0.0/api/students?')
+                        .then(res => this.students = res.data)
+                        .catch(err => console.error('error: ' + err));
                 }
             }).mount('#app')
         </script>
-
     </x-slot>
-
-</x-guest-layout>
+</x-layouts.improved-guest>
