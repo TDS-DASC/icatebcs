@@ -161,7 +161,7 @@
                                     </div><!--end col-->
                                     <div class="col-xxl-12">
                                         <div>
-                                            <label for="director_name" class="form-label">Nombre del director</label>
+                                            <label for="director_name" class="form-label">Nombre del Director(a) General</label>
                                             <input type="text" class="form-control" id="director_name" name="director_name" placeholder="Ingrese el nombre del director" onkeypress="return soloLetras(event)" :value="center.director_name" maxlength="100" required>
                                             @error('director_name')
                                                 <div class="alert alert-borderless alert-danger" role="alert">
@@ -173,7 +173,11 @@
                                     <div class="col-xxl-6">
                                         <div>
                                             <label for="director_position" class="form-label">Posición del director</label>
-                                            <input type="text" class="form-control" id="director_position" name="director_position" placeholder="Ingrese la posición del director" onkeypress="return letrasYNumeros(event)" :value="center.director_position" maxlength="100" required>
+                                            <select name="" id="" style="display: block">
+                                                <option value="">Director(a)</option>
+                                                <option value="">Encargado(a)</option>
+                                            </select>
+                                            {{-- <input type="text" class="form-control" id="director_position" name="director_position" placeholder="Ingrese la posición del director" onkeypress="return letrasYNumeros(event)" :value="center.director_position" maxlength="100" required> --}}
                                             @error('director_position')
                                                 <div class="alert alert-borderless alert-danger" role="alert">
                                                     <strong>{{$message}}</strong>
