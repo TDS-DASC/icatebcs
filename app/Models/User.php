@@ -63,7 +63,18 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
     public function center(){
         return $this->belongsTo(Center::class);
+    }
+
+    public function created_students()
+    {
+        return $this->hasMany(Student::class, 'created_by');
+    }
+
+    public function updated_students()
+    {
+        return $this->hasMany(Student::class, 'updated_by');
     }
 }
