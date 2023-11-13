@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
+use App\Concerns\Filterable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use App\Concerns\Filterable;
 use Illuminate\Support\Facades\Auth;
 
 class Student extends Model
@@ -35,15 +35,19 @@ class Student extends Model
         });
     }
 
-    public function address(){
+    public function address()
+    {
         return $this->belongsTo(Address::class);
     }
 
-    public function center(){
+    public function center()
+    {
         return $this->belongsTo(Center::class);
     }
-    public function groups(){
-        return $this->belongsToMany(Group::class);
+
+    public function groups()
+    {
+        return $this->belongsToMany(Group::class)->withPivot('status');
     }
 
     public function create_author()

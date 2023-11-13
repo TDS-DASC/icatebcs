@@ -126,7 +126,14 @@ class StudentController extends Controller
 
     public function show($id)
     {
-        $students = Student::with('address.city.state', 'center', 'create_author', 'update_author')->get()->find($id);
+        $students = Student::with(
+            'address.city.state', 
+            'center', 
+            'groups', 
+            'create_author', 
+            'update_author'
+        )->get()->find($id);
+
         $students->birth_place = (State::find($students->birth_place));
 
         return view('admin.students.detail', compact('students'));
