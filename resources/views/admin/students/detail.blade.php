@@ -480,6 +480,20 @@
                     </div>
                 </div>
             </div>
+            <table>
+                <tr>
+                    <td><b>Clave del grupo</b></td>
+                    <td><b>Estado</b></td>
+                </tr>
+                <tr>
+                    @foreach ($students->groups as $group)
+                        <td>{{$group->key}}</td>
+                        <td>{{$group->pivot->status ?? 'INDEFINIDO'}}</td>
+                    @endforeach
+                    {{-- <td>{{  $students->groups[0]->key }}</td>
+                    <td>{{ $students->groups[0]->pivot->status ?? 'INDEFINIDO'}}</td> --}}
+                </tr> 
+            </table>
             <!-- End Page-content -->
 
         </div>
