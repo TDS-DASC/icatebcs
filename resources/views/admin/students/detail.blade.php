@@ -46,9 +46,17 @@
                                         <h6 class="mb-1">Fecha de creación:</h6>
                                         <p class="text-muted">{{$students->created_at ?? '-'}}</p>
                                     </div>
-                                    <div class="col-xxl-12 col-sm-4">
+                                    <div class="col-xxl-12 col-sm-4 mb-3">
                                         <h6 class="mb-1">Última actualización:</h6>
                                         <p class="text-muted mb-0">{{$students->updated_at ?? '-'}}</p>
+                                    </div>
+                                    <div>
+                                        <h6>Editado por:</h6>
+                                        <p class="text-muted">{{ $students->update_author->id ?? '-' }}</p>
+                                    </div>
+                                    <div>
+                                        <h6>Creado por:</h6>
+                                        <p class="text-muted">{{ $student->create_author->name ?? '-' }}</p>
                                     </div>
                                 </div>
 
@@ -496,7 +504,7 @@
 
         </div>
     </div>
-
+ 
     <x-slot name="scripts">
         <script src="{{ asset('libs/sweetalert2/sweetalert2.min.js') }}"></script>
         {{-- <script rel="stylesheet" type="text/javascript" src="{{ asset('libs/dataTables/datatables.min.js') }}"></script> --}}
