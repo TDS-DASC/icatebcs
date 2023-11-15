@@ -480,18 +480,16 @@
                     </div>
                 </div>
             </div>
-            <table>
-                <tr>
-                    <td><b>Clave del grupo</b></td>
-                    <td><b>Estado</b></td>
+            <table class="bg-white w-50 text-center m-auto">
+                <tr style="border-bottom: 1px solid #F0EDED">
+                    <td><b class="nav-link">Clave del grupo</b></td>
+                    <td class="nav-link"><b>Estado</b></td>
                 </tr>
                 <tr>
                     @foreach ($students->groups as $group)
-                        <td>{{$group->key}}</td>
-                        <td>{{$group->pivot->status ?? 'INDEFINIDO'}}</td>
+                        <td class="p-3 text-muted">{{$group->key}}</td>
+                        <td class="p-3 text-muted">{{$group->pivot->status ?? 'Indefinido'}}</td>
                     @endforeach
-                    {{-- <td>{{  $students->groups[0]->key }}</td>
-                    <td>{{ $students->groups[0]->pivot->status ?? 'INDEFINIDO'}}</td> --}}
                 </tr> 
             </table>
             <!-- End Page-content -->
