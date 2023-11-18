@@ -477,7 +477,7 @@
                         document.getElementById(no_control).click();
                     },
                     submitFilters() {
-                        axios.get('http://0.0.0.0/api/students?', {
+                        axios.get('https://sce.icatebcs.gob.mx/api/students?', {
                             params: {
                                 academic_level: this.filters.academic_level === 'default' ? null : this.filters.academic_level,
                                 job_condition: this.filters.job_condition === 'default' ? null : this.filters.job_condition,
@@ -607,7 +607,7 @@
                         }
                     });
 
-                    axios.get('http://0.0.0.0/api/students?')
+                    axios.get('https://sce.icatebcs.gob.mx/api/students?')
                         .then(res => this.students = res.data)
                         .catch(err => console.error('error: ' + err));
                 }
