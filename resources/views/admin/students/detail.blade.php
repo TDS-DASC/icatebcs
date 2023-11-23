@@ -486,21 +486,25 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <table class="bg-white text-center m-auto col-12">
+                        <tr style="border-bottom: 1px solid #F0EDED">
+                            <td><b class="nav-link">Clave del grupo</b></td>
+                            <td class="nav-link"><b>Estado</b></td>
+                        </tr>
+                        <tr>
+                            @foreach ($students->groups as $group)
+                                <td class="p-3 text-muted">{{$group->key}}</td>
+                                <td class="p-3 text-muted">{{$group->pivot->status ?? 'Indefinido'}}</td>
+                            @endforeach
+                        </tr> 
+                    </table>
+                    <!-- End Page-content -->
+
                 </div>
             </div>
-            <table class="bg-white w-50 text-center m-auto">
-                <tr style="border-bottom: 1px solid #F0EDED">
-                    <td><b class="nav-link">Clave del grupo</b></td>
-                    <td class="nav-link"><b>Estado</b></td>
-                </tr>
-                <tr>
-                    @foreach ($students->groups as $group)
-                        <td class="p-3 text-muted">{{$group->key}}</td>
-                        <td class="p-3 text-muted">{{$group->pivot->status ?? 'Indefinido'}}</td>
-                    @endforeach
-                </tr> 
-            </table>
-            <!-- End Page-content -->
+            
 
         </div>
     </div>
