@@ -173,9 +173,10 @@
                                     <div class="col-xxl-6">
                                         <div>
                                             <label for="director_position" class="form-label">Posición del director</label>
-                                            <select name="" id="" style="display: block">
-                                                <option value="">Director(a)</option>
-                                                <option value="">Encargado(a)</option>
+                                            <select class="form-select" style="display: block" required>
+                                                <option disabled value="" selected>Seleccione el estado</option>
+                                                <option value="" name="director_position" :value="center.director_position">Director(a)</option>
+                                                <option value="" name="director_position" :value="center.director_position">Encargado(a)</option>
                                             </select>
                                             {{-- <input type="text" class="form-control" id="director_position" name="director_position" placeholder="Ingrese la posición del director" onkeypress="return letrasYNumeros(event)" :value="center.director_position" maxlength="100" required> --}}
                                             @error('director_position')
@@ -242,7 +243,7 @@
                                     <div class="col-xxl-4">
                                         <div>
                                             <label for="codigo_postal" class="form-label">Código postal</label>
-                                            <input type="text" class="form-control" id="codigo_postal" name="codigo_postal" placeholder="Ingrese el código postal" onkeypress="return soloNumeros(event)" :value="center.address.codigo_postal" maxlength="5" required>
+                                            <input type="text" class="form-control" id="codigo_postal" name="codigo_postal" placeholder="Ingrese el código postal" onkeypress="return soloNumeros(event)" :value="center.address.codigo_postal" maxlength="5" minlength="5" required>
                                             @error('codigo_postal')
                                                 <div class="alert alert-borderless alert-danger" role="alert">
                                                     <strong>{{$message}}</strong>
