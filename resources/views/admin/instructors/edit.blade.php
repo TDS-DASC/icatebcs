@@ -19,8 +19,18 @@
             </div>
             <!-- end page title -->
 
-            @if(session('error'))
+            {{-- @if(session('error'))
                 <div class="alert alert-borderless alert-danger" role="alert">
+                    <strong>{{session('error')}}</strong>
+                </div>
+            @endif --}}
+            @if($errors->any())
+                <div class="alert alert-borderless alert-danger" role="alert">
+                    <ul>
+                        @foreach ($erros->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
                     <strong>{{session('error')}}</strong>
                 </div>
             @endif
@@ -449,7 +459,7 @@
                                             <div class="form-group">
                                                 <div class="d-flex">
                                                     <i class="ri-user-fill formStyle-iconCardHeader"></i>
-                                                    <label for="bank_id">Nombre del banco</label>
+                                                    <label for="bank_id">Nombre del banco*</label>
                                                 </div>
                                                 <select class="form-select" name="bank_id" :value="instructor.bank_id" required>
                                                     <option value="" disabled selected>Seleccione un banco</option>
@@ -466,18 +476,18 @@
                                             <div class="form-group">
                                                 <div class="d-flex">
                                                     <i class="ri-todo-fill formStyle-iconCardHeader"></i>
-                                                    <label for="interbank_key">Clave interbancaria</label>
+                                                    <label for="interbank_key">Clave interbancaria*</label>
                                                 </div>
-                                                <input type="text" name="interbank_key" class="form-control" placeholder="Clave interbancaria" onkeypress="return soloNumeros(event)" minlength="18" maxlength="18" :value="instructor.interbank_key" >
+                                                <input type="text" name="interbank_key" class="form-control" placeholder="Clave interbancaria" onkeypress="return soloNumeros(event)" minlength="18" maxlength="18" :value="instructor.interbank_key" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 mb-4">
                                             <div class="form-group">
                                                 <div class="d-flex">
                                                     <i class="ri-user-fill formStyle-iconCardHeader"></i>
-                                                    <label for="bank_account">Cuenta bancaria</label>
+                                                    <label for="bank_account">Cuenta bancaria*</label>
                                                 </div>
-                                                <input type="text" name="bank_account" class="form-control" placeholder="Cuenta bancaria" onkeypress="return soloNumeros(event)" minlength="11" maxlength="11" :value="instructor.bank_account" >
+                                                <input type="text" name="bank_account" class="form-control" placeholder="Cuenta bancaria" onkeypress="return soloNumeros(event)" minlength="11" maxlength="11" :value="instructor.bank_account" required>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 mb-4">

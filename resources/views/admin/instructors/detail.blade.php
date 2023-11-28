@@ -49,6 +49,14 @@
                                         <h6 class="mb-1">Última actualización:</h6>
                                         <p class="text-muted mb-0">{{$instructor->updated_at ?? '-'}}</p>
                                     </div>
+                                    <div class="col-xxl-12 col-sm-4 mt-3">
+                                        <h6>Editado por</h6>
+                                        <p class="text-muted mb-0">{{ $instructor->update_author->name ?? '-' }}</p>
+                                    </div>
+                                    <div class="col-xxl-12 col-sm-4 mt-3">
+                                        <h6>Creado por</h6>
+                                        <p class="text-muted mb-0">{{ $instructor->create_author->name ?? '-'}}</p>
+                                    </div>
                                 </div>
 
                                 <div class="row">
