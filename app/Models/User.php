@@ -2,15 +2,14 @@
 
 namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
 use Spatie\Permission\Traits\HasRoles;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
 class User extends Authenticatable
 {
@@ -31,7 +30,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        'center_id'
+        'center_id',
     ];
 
     /**
@@ -64,7 +63,8 @@ class User extends Authenticatable
         'profile_photo_url',
     ];
 
-    public function center(){
+    public function center()
+    {
         return $this->belongsTo(Center::class);
     }
 
@@ -76,5 +76,15 @@ class User extends Authenticatable
     public function updated_students()
     {
         return $this->hasMany(Student::class, 'updated_by');
+    }
+
+    public function created_instructors()
+    {
+        return $this->hasMany(Instructor::class, 'created_by');
+    }
+
+    public function updated_instructors()
+    {
+        return $this->hasMany(Instructor::class, 'updated_by');
     }
 }

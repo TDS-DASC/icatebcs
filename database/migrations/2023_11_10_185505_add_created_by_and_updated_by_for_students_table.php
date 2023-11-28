@@ -28,8 +28,8 @@ return new class extends Migration
     public function down()
     {
         Schema::table('students', function (Blueprint $table) {
-            $table->foreignIdFor(User::class, 'created_by')->nullable();
-            $table->foreignIdFor(User::class, 'updated_by')->nullable();
+            $table->dropColumn(User::class, 'created_by')->nullable();
+            $table->dropColumn(User::class, 'updated_by')->nullable();
         });
     }
 };
