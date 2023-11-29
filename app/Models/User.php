@@ -87,4 +87,14 @@ class User extends Authenticatable
     {
         return $this->hasMany(Instructor::class, 'updated_by');
     }
+
+    public function created_places()
+    {
+        return $this->hasMany(Place::class, 'created_by');
+    }
+
+    public function updated_places()
+    {
+        return $this->hasMany(Place::class, 'updated_by');
+    }
 }
