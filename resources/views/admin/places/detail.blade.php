@@ -50,7 +50,7 @@
                                         <img class="rounded-circle avatar-xl img-thumbnail user-profile-image" src="{{ 'https://ui-avatars.com/api/?name='.$place->name }}" alt="Cover Place">
                                     @endif
                                 </div>
-                                
+
                                 <h5 class="fs-16 mb-1">{{$place->name}}</h5>
                                 <p class="text-muted mb-3">{{"Clave: ".$place->key}}</p>
 
@@ -65,10 +65,17 @@
                                     </div>
                                     <div class="col-xxl-12 col-sm-4">
                                         <h6 class="mb-1">Última actualización:</h6>
-                                        <p class="text-muted mb-0">{{$place->updated_at ?? '-'}}</p>
+                                        <p class="text-muted">{{$place->updated_at ?? '-'}}</p>
+                                    </div>
+                                    <div class="col-xxl-12 col-sm-4">
+                                        <h6 class="mb-1">Editado por:</h6>
+                                        <p class="text-muted">{{ $place->update_author->name ?? '-'}}</p>
+                                    </div>
+                                    <div class="col-xxl-12 col-sm-4">
+                                        <h6 class="mb-1">Creado por:</h6>
+                                        <p class="text-muted mb-0">{{$place->create_author->name ?? '-'}}</p>
                                     </div>
                                 </div>
-
                                 <div class="row">
                                     <div class="col-sm-6 mb-2">
                                         <a class="btn btn-soft-info buttonOptions" data-bs-toggle="modal" data-bs-target="#modalPlace"><i class="ri-pencil-line ri-xl me-1"></i>Editar</a>
@@ -215,7 +222,7 @@
                                                 </div>
                                             </div>
                                         </div>
-            
+
                                         <div class="table-responsive table-card mt-3 mb-1">
                                             <table class="table align-middle table-nowrap" id="placeGroupsTable">
                                                 <thead class="table-light">
@@ -257,7 +264,7 @@
                                                 </div>
                                             </div>
                                         </div>
-            
+
                                         <div class="d-flex justify-content-end">
                                             <div class="pagination-wrap hstack gap-2">
                                                 <a class="page-item pagination-prev disabled">
@@ -347,13 +354,13 @@
                                         </div>
                                     </div><!--end col-->
                                 </div>
-                                
+
                                 <div class="row">
                                     <div class="col-lg-12  my-3">
                                         <span class="modal-title ml-0" id="">Dirección</span>
                                     </div>
                                 </div>
-                                
+
                                 <!-- fila para cada grupo -->
                                 <div class="row mb-3">
                                     <div class="col-xxl-12">
