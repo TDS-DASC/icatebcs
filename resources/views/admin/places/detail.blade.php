@@ -212,14 +212,17 @@
                                 <div class="tab-pane active" id="groupsDetails" role="tabpanel">
                                     <div id="placeGroupsList">
                                         <div class="row p-0">
-                                            <div class="col-sm-8 d-flex align-items-center">
+                                            <div class="col-sm-6 d-flex align-items-center">
                                                 <h5 class="m-0">Lista de grupos</h5>
                                             </div>
-                                            <div class="col-sm-4">
-                                                <div class="search-box">
+                                            <div class="col-sm-6 d-flex gap-2">
+                                                <div class="search-box flex-1">
                                                     <input type="text" class="form-control search" placeholder="Realizar una búsqueda">
                                                     <i class="ri-search-line search-icon"></i>
                                                 </div>
+                                                <a href="{{route('places.excel.for')}}?place_id={{$place->id}}" download class="btn btn-primary ms-2">
+                                                    <i class="ri-download-fill align-bottom me-1"></i>Descargar Excel
+                                                </a>
                                             </div>
                                         </div>
 
@@ -388,7 +391,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- fila para cada grupo -->
                                 <div class="row g-3 mb-3">
                                     <div class="col-xxl-6">
                                         <div>
@@ -412,10 +414,7 @@
                                             @enderror
                                         </div>
                                     </div><!--end col-->
-                                    <!--end col-->
                                 </div>
-
-                                <!-- fila para cada grupo -->
                                 <div class="row g-3 mb-3">
                                     <div class="col-xxl-6">
                                         <div>
@@ -470,12 +469,8 @@
                     </div>
                 </div>
             </div>
-            <!-- end modal -->
-
         </div>
-        <!-- end container fluid -->
     </div>
-
 
     <x-slot name="scripts">
         <script src="{{ asset('js/global.js') }}"></script>

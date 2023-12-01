@@ -28,7 +28,7 @@ class PlaceController extends Controller
 
         $place = Place::find($request->place_id);
 
-        return Excel::download(new ExportPlaceGroups($request->id), 'grupos_'.$place->name.'.xlsx');
+        return Excel::download(new ExportPlaceGroups($place->id), 'grupos_'.$place->name.'.xlsx');
     }
 
     public function excel_import(Request $request)
