@@ -12,6 +12,7 @@ use App\Http\Controllers\CourseController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\GroupController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReportController;
 
 /*
 |--------------------------------------------------------------------------
@@ -57,8 +58,8 @@ Route::get('center/hydrate', [CenterController::class, 'hydrate']);
 Route::middleware(['auth'])->group(function () {
     Route::get('/home', [StudentController::class, 'index']);
     Route::get('/dashboard',[DashboardController::class, 'index'])->name('dashboard');
- 
-    
+
+
     //rutas crud estudiantes
     Route::get('/student', [StudentController::class,'index'])->name('student.index');
     Route::get('/student/create', [StudentController::class,'create'])->name('student.create');
@@ -68,7 +69,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/student/get/{id}', [StudentController::class,'get'])->name('student.get');
     Route::put('/student/{student}', [StudentController::class,'update'])->name('student.update');
     Route::get('/student/{id}/delete', [StudentController::class,'destroy'])->name('student.destroy');
-    
+
     Route::post('student/curp-exists',[StudentController::class, 'curpExists'])->name('student.curp.exists');
     Route::post('studente/group-assign', [StudentController::class, 'attach_group'])->name('student.group.assign');
     //rutas crud perfiles
@@ -90,7 +91,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/center/get/{id}', [CenterController::class,'get'])->name('center.get');
     Route::put('/center/{id}', [CenterController::class,'update'])->name('center.update');
     Route::get('/center/{id}/delete', [CenterController::class,'destroy'])->name('center.destroy');
-    
+
 
     //rutas crud para lugares (pertenecen a un centro)
     Route::get('/place', [PlaceController::class,'index'])->name('place.index');
@@ -141,13 +142,17 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/group/{id}/edit', [GroupController::class,'edit'])->name('group.edit');
     Route::put('/group', [GroupController::class,'update'])->name('group.update');
 
-    
+
     Route::get('/group/get/{id}', [GroupController::class,'get'])->name('group.get');
-    
+
     //Rutas usuarios con roles
     Route::get('/user', [UserController::class,'index'])->name('user.index');
     Route::post('/user', [UserController::class,'store'])->name('user.store');
     Route::put('/user/{id}', [UserController::class,'update'])->name('user.update');
     Route::get('/user/{id}/delete', [UserController::class,'destroy'])->name('user.destroy');
-    
+
+    // Reportes
+    Route::get('/reports/download', [ReportController::class, 'index'])->name('reports.index');
+    Route::get('/reports/download/students', [ReportController::class, 'students'])->name('reports.download.instructors');
+    Route::get('/reports/download/instructors', [ReportController::class, 'instructors'])->name('reports.download.instructors');
 });
