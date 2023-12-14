@@ -1,12 +1,12 @@
 <x-slot name="head">
-    <link rel="stylesheet" href="{{ asset('libs/swiper/swiper-bundle.min.css') }}">        
+    <link rel="stylesheet" href="{{ asset('libs/swiper/swiper-bundle.min.css') }}">
 </x-slot>
 <header id="page-topbar">
     <div class="layout-width">
         <div class="navbar-header">
             <div class="d-flex">
                 <!-- topnav - hamburger -->
-                
+
                 <button type="button" class="btn btn-sm px-3 fs-16 header-item vertical-menu-btn topnav-hamburger"
                     id="topnav-hamburger-icon">
                     <span class="hamburger-icon">
@@ -57,7 +57,7 @@
     <div class="app-menu navbar-menu">
             <!-- LOGO -->
             <div class="navbar-brand-box">
-                
+
                 <a href="{{ url('dashboard')}}" class="logo logo-light">
                     <span class="logo-sm">
                         <img src="{{asset('images/ICATEBCS_logo.png')}}" alt="" height="22">
@@ -84,7 +84,7 @@
                                 <i class="ri-dashboard-2-fill"></i> <span data-key="t-dashboard">Dashboard</span>
                             </a>
                         </li> <!-- end Dashboard Menu -->
-                        
+
                         @can('Consultar estudiantes')
                             <li class="menu-title"><span>Capacitandos</span></li>
 
@@ -97,7 +97,7 @@
 
                         @if(auth()->user()->can('Consultar permisos') || auth()->user()->can('Consultar usuarios'))
                             <li class="menu-title"><i class="ri-more-fill"></i> <span >Roles y usuarios</span></li>
-                            
+
                             <li class="nav-item">
                                 <a class="nav-link menu-link" href="#collapseUsersAndRoles" data-bs-toggle="collapse" role="button" aria-expanded="{{ (Route::is('profile.*')||Route::is('user.*')) ? 'true' : 'false'}}" aria-controls="sidebarLayouts">
                                     <i class="mdi mdi-view-carousel-outline"></i> <span data-key="t-layouts">Roles y usuarios</span>
@@ -108,7 +108,7 @@
                                         <li class="nav-item">
                                             <a href="{{ url('profile') }}" class="nav-link menu-link {{ Route::is('profile.*') ? 'active' : ''}}"  role="button"  style="background: {{ Route::is('profile.*') ? '#4c66ba' : ''}};">
                                                 <i class="ri-account-circle-fill"></i> Perfiles
-                                            </a> 
+                                            </a>
                                         </li>
                                         @endcan
                                         @can('Consultar usuarios')
@@ -122,7 +122,7 @@
                                 </div>
                             </li>
                         @endif
-                        
+
                         @if(auth()->user()->can('Consultar centros') || auth()->user()->can('Consultar lugares'))
                             <li class="menu-title"><i class="ri-more-fill"></i> <span>Centros de trabajo</span></li>
                         @endif
@@ -162,7 +162,7 @@
                                 </a>
                             </li>
                         @endcan
-                        
+
                         @can('Consultar grupos')
                             <li class="nav-item">
                                 <a href="{{ route('group.index') }}" class="nav-link menu-link {{ Route::is('group.*') ? 'active' : ''}}"  role="button"  style="background: {{ Route::is('group.*') ? '#4c66ba' : ''}};">
@@ -179,6 +179,12 @@
                             </li>
                         @endcan
 
+                        <li class="menu-title"><i class="ri-more-fill"></i><span>Reportes</span></li>
+                        <li class="nav-item">
+                            <a href="{{ url('reports/download') }}" class="nav-link menu-link {{ Route::is('reports.*') ? 'active' : ''}}" role="button" style="background: {{ Route::is('reports.*') ? '#4c66ba' : ''}};">
+                                <i class="ri-file-download-fill"></i> <span>Descargar reportes</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- Sidebar -->
@@ -190,4 +196,4 @@
         </x-slot>
 
 
-        
+
