@@ -55,23 +55,23 @@
             </div>
           </div>
         </div>
-        <div class="col-xxl-3 col-lg-6">
-          <div class="card card-body text-center">
-            <div class="avatar-sm mx-auto mb-3">
-              <div class="avatar-title bg-soft-success text-success fs-17 rounded">
-                <i class="ri-admin-fill"></i>
-              </div>
-            </div>
-            <h4 class="card-title">Capacitandos</h4>
-            <p class="card-text text-muted">
-              Reporte de capacitandos
-            </p>
-            <div id="rowButtonsProfiles" class="row">
-              <div class="col-sm-12 mt-2">
-                <a class="btn btn-success buttonOptions">Descargar</a>
-              </div>
-            </div>
-          </div>
+{{--        <div class="col-xxl-3 col-lg-6">--}}
+{{--          <div class="card card-body text-center">--}}
+{{--            <div class="avatar-sm mx-auto mb-3">--}}
+{{--              <div class="avatar-title bg-soft-success text-success fs-17 rounded">--}}
+{{--                <i class="ri-admin-fill"></i>--}}
+{{--              </div>--}}
+{{--            </div>--}}
+{{--            <h4 class="card-title">Capacitandos</h4>--}}
+{{--            <p class="card-text text-muted">--}}
+{{--              Reporte de capacitandos--}}
+{{--            </p>--}}
+{{--            <div id="rowButtonsProfiles" class="row">--}}
+{{--              <div class="col-sm-12 mt-2">--}}
+{{--                <a class="btn btn-success buttonOptions">Descargar</a>--}}
+{{--              </div>--}}
+{{--            </div>--}}
+{{--          </div>--}}
         </div>
       </div>
     </div>

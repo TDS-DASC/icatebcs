@@ -66,6 +66,33 @@ class ExportInstructorsReport implements WithEvents, WithHeadingRow
                 $male_evaluators,
                 $female_evaluators
             ) {
+                // Metadatos
+                $event->sheet->setCellValue(
+                    'C5',
+                    date('d/m/Y')
+                );
+
+                // (Reporte general)
+                $event->sheet->setCellValue(
+                    'C4',
+                    'General'
+                );
+                $event->sheet->setCellValue(
+                    'E4',
+                    'General'
+                );
+                $event->sheet->setCellValue(
+                    'G4',
+                    'General'
+                );
+                $event->sheet->setCellValue(
+                    'G5',
+                    'Total'
+                );
+                $event->sheet->setCellValue(
+                    'H5',
+                    ''
+                );
 
                 // Instructores --------------------------------------------
 
