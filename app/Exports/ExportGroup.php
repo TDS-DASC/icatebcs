@@ -2,20 +2,21 @@
 
 namespace App\Exports;
 
-use Maatwebsite\Excel\Concerns\Exportable;
+use Maatwebsite\Excel\Concerns\Exportable as Exportable;
 use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\ShouldAutoSize;
 use Maatwebsite\Excel\Concerns\WithCustomStartCell;
+use Maatwebsite\Excel\Concerns\WithDrawings;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
-use Maatwebsite\Excel\Concerns\WithDrawings;
 use PhpOffice\PhpSpreadsheet\Worksheet\Drawing;
-use Illuminate\Support\Carbon;
-class ExportGroup implements FromCollection, WithMapping, ShouldAutoSize, WithCustomStartCell, WithHeadings,WithDrawings
-// WithMultipleSheets
+
+class ExportGroup implements FromCollection, WithMapping, ShouldAutoSize, WithCustomStartCell, WithHeadings, WithDrawings
 {
     use Exportable;
+
     protected $groups;
+
     public function __construct($groups)
     {
         $this->groups = $groups;
@@ -26,20 +27,20 @@ class ExportGroup implements FromCollection, WithMapping, ShouldAutoSize, WithCu
         return $this->groups;
     }
 
-
-    public function map($row): array{
-        $row = collect($row)->map(function($row){
+    public function map($row): array
+    {
+        $row = collect($row)->map(function ($row) {
             return collect($row);
         });
-      
+
         $students = '';
-        foreach($row->get('students') as $student){
-            $students.=$student['curp'].',';
+        foreach ($row->get('students') as $student) {
+            $students .= $student['curp'].',';
         }
 
         $days = '';
-        foreach($row->get('days') as $day){
-            $days.=$day['name'].',';
+        foreach ($row->get('days') as $day) {
+            $days .= $day['name'].',';
         }
 
         return [
@@ -54,7 +55,7 @@ class ExportGroup implements FromCollection, WithMapping, ShouldAutoSize, WithCu
             $row->get('date_start')->get(0),
             $row->get('date_end')->get(0),
             $row->get('time_start')->get(0),
-            $row->get('time_end')->get(0)
+            $row->get('time_end')->get(0),
         ];
     }
 
@@ -62,9 +63,10 @@ class ExportGroup implements FromCollection, WithMapping, ShouldAutoSize, WithCu
     {
         return 'A8';
     }
-    
-    public function headings(): array{
-        return [ 
+
+    public function headings(): array
+    {
+        return [
             'CLAVE',
             'LUGAR',
             'INSTRUCTOR',
@@ -75,17 +77,19 @@ class ExportGroup implements FromCollection, WithMapping, ShouldAutoSize, WithCu
             'FECHA INICIO',
             'FECHA FINAL',
             'HORA DE INICIO',
-            'HORA FINAL'
+            'HORA FINAL',
         ];
     }
 
-    public function drawings(){
+    public function drawings()
+    {
         $drawing = new Drawing();
         $drawing->setName('Logo');
         $drawing->setDescription('logo icatebcs');
         $drawing->setPath(public_path('images/ICATEBCS-favicon.png'));
         $drawing->setHeight(90);
         $drawing->setCoordinates('A1');
+
         return $drawing;
     }
 }
